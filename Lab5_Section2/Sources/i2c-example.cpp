@@ -14,12 +14,14 @@ using namespace USBDM;
 // Address (LSB = R/W bit)
 static const unsigned I2C_ADDRESS = 0x1D<<1;
 static const unsigned I2C_SPEED   = 400*kHz;
+//static const uint8_t I2C_ADDRESS = 0x1D<<1;?
+//static const uint8_t I2C_SPEED   = 400*kHz;?
 
 int main() {
 
    // Declare I2C interface
    I2c0 i2c{I2C_SPEED, I2cMode_Polled};
-
+   //I2c0 i2c(400*kHz)?
    for(;;) {
       {
          /*
@@ -30,7 +32,7 @@ int main() {
          uint8_t rxData[2] = {};
 
          i2c.startTransaction();
-         i2c.txRx(I2C_ADDRESS, sizeof(txData), txData, sizeof(txData), rxData);
+         i2c.txRx(I2C_ADDRESS, sizeof(txData), txData, sizeof(rxData), rxData);
          i2c.endTransaction();
       }
       {
