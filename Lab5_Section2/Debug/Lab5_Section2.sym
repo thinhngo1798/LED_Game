@@ -162,72 +162,70 @@
 00001e7c W USBDM::I2c::startTransaction(int)
 00001e92 W USBDM::I2c::endTransaction()
 00001ea8 T main
-00001f84 W USBDM::I2cBase_T<USBDM::I2c0Info>::I2cBase_T(unsigned int, USBDM::I2cMode, unsigned char)
-00001f84 W USBDM::I2cBase_T<USBDM::I2c0Info>::I2cBase_T(unsigned int, USBDM::I2cMode, unsigned char)
-00001fdc W USBDM::I2cBase_T<USBDM::I2c0Info>::~I2cBase_T()
-00001fdc W USBDM::I2cBase_T<USBDM::I2c0Info>::~I2cBase_T()
-00002000 W USBDM::I2cBase_T<USBDM::I2c0Info>::~I2cBase_T()
-00002020 W USBDM::I2cBase_T<USBDM::I2c0Info>::busHangReset()
-0000208c W USBDM::I2cBase_T<USBDM::I2c0Info>::init(unsigned char)
-000020fc W USBDM::I2cBase_T<USBDM::I2c0Info>::setBPS(unsigned long)
-00002120 W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::setOutput(unsigned long)
-00002148 W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 1u, (USBDM::Polarity)1>::setInput(unsigned long)
-0000216c W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::high()
-0000217e W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 1u, (USBDM::Polarity)1>::read()
-0000218c W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::low()
-0000219e W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::setInactive()
-000021aa W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::setOut()
-000021c0 W USBDM::Pcr_T<1024ul, 1074044928ul, (IRQn_Type)41, 0, 256ul>::setPCR(unsigned long)
-000021e2 W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 1u, (USBDM::Polarity)1>::setIn()
-000021f8 W USBDM::Pcr_T<1024ul, 1074044928ul, (IRQn_Type)41, 1, 256ul>::setPCR(unsigned long)
-0000221c W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::gpio()
-00002230 W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 1u, (USBDM::Polarity)1>::isHigh()
-0000224e W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::set()
-00002260 W USBDM::Pcr_T<1024ul, 1074044928ul, (IRQn_Type)41, 0, 256ul>::pcrReg()
-00002274 W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 1u, (USBDM::Polarity)1>::gpio()
-00002288 W USBDM::Pcr_T<1024ul, 1074044928ul, (IRQn_Type)41, 1, 256ul>::pcrReg()
-0000229c W USBDM::I2c::waitWhileBusy()
-000022e0 T USBDM::I2c::getBPSValue(unsigned long, unsigned long)
-00002394 T USBDM::I2c::sendAddress(unsigned char)
-000023f6 T USBDM::I2c::poll()
-0000261e T USBDM::I2c::transmit(unsigned char, unsigned short, unsigned char const*)
-0000266e T USBDM::I2c::receive(unsigned char, unsigned short, unsigned char*)
-000026c4 T USBDM::I2c::txRx(unsigned char, unsigned short, unsigned char const*, unsigned short, unsigned char*)
-0000271a T USBDM::I2c::txRx(unsigned char, unsigned short, unsigned short, unsigned char*)
-00002752 T cpp_initialise
-0000275e T __aeabi_atexit
-00002768 T operator delete(void*, unsigned int)
-0000276c T operator delete(void*)
-00002770 T __cxa_atexit
-0000278c T exit
-000027b4 T __libc_init_array
-000027fc T free
-0000280c T memset
-0000281c T _free_r
-000028b8 T __malloc_lock
-000028c4 T __malloc_unlock
-000028d0 T __retarget_lock_acquire_recursive
-000028d2 T __retarget_lock_release_recursive
-000029d8 V vtable for USBDM::Uart_brfa_T<USBDM::Uart0Info>
-00002a04 V vtable for USBDM::Uart_T<USBDM::Uart0Info>
-00002a30 V vtable for USBDM::Uart
-00002a5c V vtable for USBDM::FormattedIO
-00002a80 T USBDM::Mcg::clockInfo
-00002b04 V vtable for USBDM::I2cBase_T<USBDM::I2c0Info>
-00002b24 T USBDM::I2c::I2C_DIVISORS
-00002ba4 T vtable for USBDM::I2c
-00002bbc T _global_impure_ptr
-00002bc0 T _init
-00002bcc T _fini
-00002bd8 T __CTOR_END__
-00002bd8 T __CTOR_LIST__
-00002bd8 T __DTOR_END__
-00002bd8 T __DTOR_LIST__
-00002bf0 T __exidx_start
-00002bf8 R __DATA_ROM
-00002bf8 R __etext
-00002bf8 R __exidx_end
-00002c68 A __DATA_END
+00001f04 W USBDM::I2cBase_T<USBDM::I2c0Info>::I2cBase_T(unsigned int, USBDM::I2cMode, unsigned char)
+00001f04 W USBDM::I2cBase_T<USBDM::I2c0Info>::I2cBase_T(unsigned int, USBDM::I2cMode, unsigned char)
+00001f5c W USBDM::I2cBase_T<USBDM::I2c0Info>::~I2cBase_T()
+00001f5c W USBDM::I2cBase_T<USBDM::I2c0Info>::~I2cBase_T()
+00001f80 W USBDM::I2cBase_T<USBDM::I2c0Info>::~I2cBase_T()
+00001fa0 W USBDM::I2cBase_T<USBDM::I2c0Info>::busHangReset()
+0000200c W USBDM::I2cBase_T<USBDM::I2c0Info>::init(unsigned char)
+0000207c W USBDM::I2cBase_T<USBDM::I2c0Info>::setBPS(unsigned long)
+000020a0 W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::setOutput(unsigned long)
+000020c8 W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 1u, (USBDM::Polarity)1>::setInput(unsigned long)
+000020ec W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::high()
+000020fe W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 1u, (USBDM::Polarity)1>::read()
+0000210c W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::low()
+0000211e W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::setInactive()
+0000212a W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::setOut()
+00002140 W USBDM::Pcr_T<1024ul, 1074044928ul, (IRQn_Type)41, 0, 256ul>::setPCR(unsigned long)
+00002162 W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 1u, (USBDM::Polarity)1>::setIn()
+00002178 W USBDM::Pcr_T<1024ul, 1074044928ul, (IRQn_Type)41, 1, 256ul>::setPCR(unsigned long)
+0000219c W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::gpio()
+000021b0 W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 1u, (USBDM::Polarity)1>::isHigh()
+000021ce W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 0u, (USBDM::Polarity)0>::set()
+000021e0 W USBDM::Pcr_T<1024ul, 1074044928ul, (IRQn_Type)41, 0, 256ul>::pcrReg()
+000021f4 W USBDM::GpioBase_T<1024ul, 1074044928ul, (IRQn_Type)41, 1074786368ul, 1u, (USBDM::Polarity)1>::gpio()
+00002208 W USBDM::Pcr_T<1024ul, 1074044928ul, (IRQn_Type)41, 1, 256ul>::pcrReg()
+0000221c W USBDM::I2c::waitWhileBusy()
+00002260 T USBDM::I2c::getBPSValue(unsigned long, unsigned long)
+00002314 T USBDM::I2c::sendAddress(unsigned char)
+00002376 T USBDM::I2c::poll()
+0000259e T USBDM::I2c::txRx(unsigned char, unsigned short, unsigned char const*, unsigned short, unsigned char*)
+000025f4 T USBDM::I2c::txRx(unsigned char, unsigned short, unsigned short, unsigned char*)
+0000262c T cpp_initialise
+00002638 T __aeabi_atexit
+00002642 T operator delete(void*, unsigned int)
+00002646 T operator delete(void*)
+0000264c T __cxa_atexit
+00002668 T exit
+00002690 T __libc_init_array
+000026d8 T free
+000026e8 T memset
+000026f8 T _free_r
+00002794 T __malloc_lock
+000027a0 T __malloc_unlock
+000027ac T __retarget_lock_acquire_recursive
+000027ae T __retarget_lock_release_recursive
+000028c0 V vtable for USBDM::Uart_brfa_T<USBDM::Uart0Info>
+000028ec V vtable for USBDM::Uart_T<USBDM::Uart0Info>
+00002918 V vtable for USBDM::Uart
+00002944 V vtable for USBDM::FormattedIO
+00002968 T USBDM::Mcg::clockInfo
+000029e4 V vtable for USBDM::I2cBase_T<USBDM::I2c0Info>
+00002a04 T USBDM::I2c::I2C_DIVISORS
+00002a84 T vtable for USBDM::I2c
+00002a9c T _global_impure_ptr
+00002aa0 T _init
+00002aac T _fini
+00002ab8 T __CTOR_END__
+00002ab8 T __CTOR_LIST__
+00002ab8 T __DTOR_END__
+00002ab8 T __DTOR_LIST__
+00002ad0 T __exidx_start
+00002ad8 R __DATA_ROM
+00002ad8 R __etext
+00002ad8 R __exidx_end
+00002b48 A __DATA_END
 1fffe000 D __DATA_RAM
 1fffe000 D __data_start__
 1fffe000 D __dso_handle
@@ -249,22 +247,22 @@
 1fffe0b0 B USBDM::SystemMcgPllClock
 1fffe0b4 B USBDM::SystemLpoClock
 1fffe0b8 B USBDM::Mcg::currentClockMode
-1fffe0c0 V USBDM::I2cBase_T<USBDM::I2c0Info>::thisPtr
-1fffe0c4 B USBDM::errorCode
-1fffe0c8 B __malloc_free_list
-1fffe0cc B __lock___atexit_recursive_mutex
-1fffe0cd B __lock___arc4random_mutex
-1fffe0ce B __lock___env_recursive_mutex
-1fffe0cf B __lock___sinit_recursive_mutex
-1fffe0d0 B __lock___malloc_recursive_mutex
-1fffe0d1 B __lock___at_quick_exit_mutex
-1fffe0d2 B __lock___dd_hash_mutex
-1fffe0d3 B __lock___tz_mutex
-1fffe0d4 B __lock___sfp_recursive_mutex
-1fffe0d8 B __bss_end__
-1fffe0d8 B __END_BSS
-1fffe0d8 B __heap_addr
-1fffe0d8 B __HeapBase
+1fffe0bc V USBDM::I2cBase_T<USBDM::I2c0Info>::thisPtr
+1fffe0c0 B USBDM::errorCode
+1fffe0c4 B __malloc_free_list
+1fffe0c8 B __lock___atexit_recursive_mutex
+1fffe0c9 B __lock___arc4random_mutex
+1fffe0ca B __lock___env_recursive_mutex
+1fffe0cb B __lock___sinit_recursive_mutex
+1fffe0cc B __lock___malloc_recursive_mutex
+1fffe0cd B __lock___at_quick_exit_mutex
+1fffe0ce B __lock___dd_hash_mutex
+1fffe0cf B __lock___tz_mutex
+1fffe0d0 B __lock___sfp_recursive_mutex
+1fffe0d4 B __bss_end__
+1fffe0d4 B __END_BSS
+1fffe0d4 B __heap_addr
+1fffe0d4 B __HeapBase
 1fffffff A __HeapLimit
 20001000 B __StackLimit
 20002000 B __stack

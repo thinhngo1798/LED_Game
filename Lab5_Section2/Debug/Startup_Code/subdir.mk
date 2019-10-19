@@ -46,21 +46,21 @@ CPP_DEPS += \
 Startup_Code/%.o: ../Startup_Code/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: ARM C++ Compiler'
-	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Sources" -I"C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"$@" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)"  -o "$@" $<
+	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"E:/Y2/Embedded/LED_Game/Lab5_Section2/Sources" -I"E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"$@" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)"  -o "$@" $<
 	@echo 'Finished building: $<'
 	@echo ' '
 
 Startup_Code/%.o: ../Startup_Code/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: ARM C Compiler'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Sources" -I"C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers" -std=c11 -c -fmessage-length=0 -MT"$@" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)"  -o "$@" $<
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -Wall -Wextra -DDEBUG_BUILD -I"E:/Y2/Embedded/LED_Game/Lab5_Section2/Sources" -I"E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers" -std=c11 -c -fmessage-length=0 -MT"$@" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)"  -o "$@" $<
 	@echo 'Finished building: $<'
 	@echo ' '
 
 Startup_Code/%.o: ../Startup_Code/%.S
 	@echo 'Building file: $<'
 	@echo 'Invoking: ARM Assembler'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -Wall -Wextra -x assembler-with-cpp -DDEBUG_BUILD -I"C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers" -Wall -Wextra -c -fmessage-length=0  -o "$@" $<
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -Wall -Wextra -x assembler-with-cpp -DDEBUG_BUILD -I"E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers" -Wall -Wextra -c -fmessage-length=0  -o "$@" $<
 	@echo 'Finished building: $<'
 	@echo ' '
 

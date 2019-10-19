@@ -1,5 +1,6 @@
-Startup_Code/console.o Startup_Code/console.o: \
- ../Startup_Code/console.cpp \
+Sources/mma845x.o Sources/mma845x.o: ../Sources/mma845x.cpp \
+ ../Sources/mma845x.h \
+ E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/i2c.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/derivative.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/MK20D5.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/core_cm4.h \
@@ -8,11 +9,9 @@ Startup_Code/console.o Startup_Code/console.o: \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/core_cmFunc.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/core_cmSimd.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/system.h \
- E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/system.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/hardware.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/error.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/pin_mapping.h \
- E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/derivative.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/pcr.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/bitband.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/adc.h \
@@ -20,11 +19,15 @@ Startup_Code/console.o Startup_Code/console.o: \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/gpio.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/delay.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/console.h \
- E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/hardware.h \
+ E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/derivative.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/uart.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/formatted_io.h \
  E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/uart_queue.h \
- E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/console.h
+ E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/delay.h
+
+../Sources/mma845x.h:
+
+E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/i2c.h:
 
 E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/derivative.h:
 
@@ -42,15 +45,11 @@ E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/core_cmSimd.h:
 
 E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/system.h:
 
-E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/system.h:
-
 E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/hardware.h:
 
 E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/error.h:
 
 E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/pin_mapping.h:
-
-E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/derivative.h:
 
 E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/pcr.h:
 
@@ -66,7 +65,7 @@ E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/delay.h:
 
 E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/console.h:
 
-E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/hardware.h:
+E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/derivative.h:
 
 E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/uart.h:
 
@@ -74,4 +73,4 @@ E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/formatted_io.h:
 
 E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/uart_queue.h:
 
-E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/console.h:
+E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers/delay.h:

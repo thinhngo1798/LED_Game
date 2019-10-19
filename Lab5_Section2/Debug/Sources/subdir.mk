@@ -9,6 +9,8 @@ CPP_SRCS += \
 ../Sources/hardware.cpp \
 ../Sources/i2c-example.cpp \
 ../Sources/i2c.cpp \
+../Sources/mma845x-example.cpp \
+../Sources/mma845x.cpp \
 ../Sources/spi.cpp \
 ../Sources/usbdmError.cpp 
 
@@ -18,6 +20,8 @@ OBJS += \
 ./Sources/hardware.o \
 ./Sources/i2c-example.o \
 ./Sources/i2c.o \
+./Sources/mma845x-example.o \
+./Sources/mma845x.o \
 ./Sources/spi.o \
 ./Sources/usbdmError.o 
 
@@ -27,6 +31,8 @@ CPP_DEPS += \
 ./Sources/hardware.d \
 ./Sources/i2c-example.d \
 ./Sources/i2c.d \
+./Sources/mma845x-example.d \
+./Sources/mma845x.d \
 ./Sources/spi.d \
 ./Sources/usbdmError.d 
 
@@ -35,7 +41,7 @@ CPP_DEPS += \
 Sources/%.o: ../Sources/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: ARM C++ Compiler'
-	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Sources" -I"C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"$@" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)"  -o "$@" $<
+	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"E:/Y2/Embedded/LED_Game/Lab5_Section2/Sources" -I"E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"$@" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)"  -o "$@" $<
 	@echo 'Finished building: $<'
 	@echo ' '
 
