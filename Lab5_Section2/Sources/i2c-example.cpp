@@ -41,12 +41,24 @@ int main() {
 	   {
 		   Mask |= 1<<choice[l];
 	   }
+
 	   setDirection(Mask);
 	   //All the output LED will be on;
 	   write(0b11111111);
+	   waitMS(500);
 
-	   //All output will be off and then capture the input for testing.
+	   //All output will be 0 and then capture the input for testing.
 	   write(0b00000000);
+	   waitMS(500);
+
+	   //All the bits are output and flashing 1 light from right to left.
+	   Mask=0;
+	   setDirection(Mask);
+	   for (int l=0;l<=7;l++)
+	   {
+		   write(1<<l);
+		   waitMS(200);
+	   }
 
 //      {
 //         /*
