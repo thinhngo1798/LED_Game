@@ -36,17 +36,32 @@ uint8_t readRegister(RegAddress regAddress)
 	i2c.endTransaction();
 	return arrayRx[0];
 }
-
+/**
+ * Transmitting data through ports by using OLAT Register address
+ *
+ * @param[in] unsigned integer 8-bit data
+ *
+ */
 void write(uint8_t data)
 {
 	writeRegister(RegAddress_OLAT, data);
 }
-
+/**
+ * Setting direction for ports.
+ * @param[in] The direction of the 8 GPIO Port
+ *
+ * @Note
+ */
 void setDirection(uint8_t direction)
 {
 	writeRegister(RegAddress_IODIR, direction);
 }
-
+/**
+ * Receiving data through ports by using GPIO Register address
+ *
+ * @param[in] None
+ *
+ */
 uint8_t read()
 {
 	return readRegister(RegAddress_GPIO);

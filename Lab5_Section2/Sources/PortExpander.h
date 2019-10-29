@@ -42,7 +42,9 @@ enum RegAddress {
 void writeRegister(RegAddress regAddress, uint8_t data);
 
 uint8_t readRegister(RegAddress regAddress);
-
+/**
+ * haha
+ */
 void setDirection(uint8_t direction);
 
 //think about adding function to setting individual bit/clear bit
