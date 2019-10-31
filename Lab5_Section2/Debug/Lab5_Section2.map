@@ -3753,6 +3753,7 @@ Discarded input sections
  .debug_frame   0x00000000       0xb0 ./Sources/spi.o
  .ARM.attributes
                 0x00000000       0x2e ./Sources/spi.o
+ .group         0x00000000       0x10 ./Sources/testing.o
  .group         0x00000000        0x8 ./Sources/testing.o
  .group         0x00000000        0x8 ./Sources/testing.o
  .group         0x00000000        0x8 ./Sources/testing.o
@@ -3770,6 +3771,14 @@ Discarded input sections
  .group         0x00000000        0xc ./Sources/testing.o
  .group         0x00000000        0xc ./Sources/testing.o
  .group         0x00000000        0xc ./Sources/testing.o
+ .group         0x00000000        0xc ./Sources/testing.o
+ .group         0x00000000        0xc ./Sources/testing.o
+ .group         0x00000000        0xc ./Sources/testing.o
+ .group         0x00000000        0xc ./Sources/testing.o
+ .group         0x00000000        0xc ./Sources/testing.o
+ .group         0x00000000        0xc ./Sources/testing.o
+ .group         0x00000000        0x8 ./Sources/testing.o
+ .group         0x00000000        0x8 ./Sources/testing.o
  .group         0x00000000        0xc ./Sources/testing.o
  .group         0x00000000        0xc ./Sources/testing.o
  .group         0x00000000        0xc ./Sources/testing.o
@@ -3860,6 +3869,8 @@ Discarded input sections
                 0x00000000        0x1 ./Sources/testing.o
  .rodata._ZN5USBDML12UNMAPPED_PCRE
                 0x00000000        0x1 ./Sources/testing.o
+ .text._ZN5USBDML16enablePortClocksEm
+                0x00000000       0x34 ./Sources/testing.o
  .rodata._ZN5USBDML16PORTA_CLOCK_MASKE
                 0x00000000        0x4 ./Sources/testing.o
  .rodata._ZN5USBDML16PORTB_CLOCK_MASKE
@@ -3918,7 +3929,7 @@ Discarded input sections
                 0x00000000       0x24 ./Sources/testing.o
  .text._ZN5USBDM11FormattedIO8readCharEv
                 0x00000000       0x2a ./Sources/testing.o
- .rodata        0x00000000       0x9c ./Sources/testing.o
+ .rodata        0x00000000      0x118 ./Sources/testing.o
  .text._ZN5USBDM11FormattedIO5ultoaEPcmNS_5RadixENS_7PaddingEib
                 0x00000000      0x170 ./Sources/testing.o
  .text._ZN5USBDM11FormattedIO5writeEc
@@ -3939,9 +3950,15 @@ Discarded input sections
                 0x00000000       0x2c ./Sources/testing.o
  .text._ZN5USBDM11FormattedIO4readERmNS_5RadixE
                 0x00000000       0xbc ./Sources/testing.o
+ .text._ZN5USBDM11FormattedIO4readERlNS_5RadixE
+                0x00000000       0x2e ./Sources/testing.o
  .text._ZN5USBDM11FormattedIO4readERjNS_5RadixE
                 0x00000000       0x2c ./Sources/testing.o
  .text._ZN5USBDM11FormattedIO6readlnERjNS_5RadixE
+                0x00000000       0x2a ./Sources/testing.o
+ .text._ZN5USBDM11FormattedIO4readERiNS_5RadixE
+                0x00000000       0x2c ./Sources/testing.o
+ .text._ZN5USBDM11FormattedIO6readlnERiNS_5RadixE
                 0x00000000       0x2a ./Sources/testing.o
  .rodata._ZN5USBDML15defaultBaudRateE
                 0x00000000        0x4 ./Sources/testing.o
@@ -3949,13 +3966,27 @@ Discarded input sections
                 0x00000000       0x34 ./Sources/testing.o
  .text._Z11testDisplayv
                 0x00000000       0x32 ./Sources/testing.o
+ .text._Z19testReadPinFunctionv
+                0x00000000       0x8c ./Sources/testing.o
  .text._Z10testSystemv
                 0x00000000       0xfc ./Sources/testing.o
- .debug_info    0x00000000    0x10568 ./Sources/testing.o
- .debug_abbrev  0x00000000      0xb69 ./Sources/testing.o
+ .text._ZN5USBDM7Field_TINS_9GpioDInfoELj3ELj1ELNS_8PolarityE1EE9setOutputENS_16PinDriveStrengthENS_12PinDriveModeENS_11PinSlewRateE
+                0x00000000       0x2e ./Sources/testing.o
+ .text._ZN5USBDM7Field_TINS_9GpioDInfoELj3ELj1ELNS_8PolarityE1EE5writeEm
+                0x00000000       0x30 ./Sources/testing.o
+ .text._ZN5USBDM7Field_TINS_9GpioDInfoELj3ELj1ELNS_8PolarityE1EE9setOutputEm
+                0x00000000       0x24 ./Sources/testing.o
+ .text._ZN5USBDM7Field_TINS_9GpioDInfoELj3ELj1ELNS_8PolarityE1EE4gpioEv
+                0x00000000       0x14 ./Sources/testing.o
+ .text._ZN5USBDM7Field_TINS_9GpioDInfoELj3ELj1ELNS_8PolarityE1EE8setInOutEm
+                0x00000000       0x4a ./Sources/testing.o
+ .text._ZN5USBDM7Field_TINS_9GpioDInfoELj3ELj1ELNS_8PolarityE1EE4portEv
+                0x00000000       0x14 ./Sources/testing.o
+ .debug_info    0x00000000    0x10c76 ./Sources/testing.o
+ .debug_abbrev  0x00000000      0xbd4 ./Sources/testing.o
  .debug_aranges
-                0x00000000       0xb8 ./Sources/testing.o
- .debug_ranges  0x00000000       0xc0 ./Sources/testing.o
+                0x00000000      0x110 ./Sources/testing.o
+ .debug_ranges  0x00000000      0x118 ./Sources/testing.o
  .debug_macro   0x00000000      0x4a8 ./Sources/testing.o
  .debug_macro   0x00000000      0xbc2 ./Sources/testing.o
  .debug_macro   0x00000000       0x1c ./Sources/testing.o
@@ -4022,10 +4053,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x17 ./Sources/testing.o
  .debug_macro   0x00000000       0x10 ./Sources/testing.o
  .debug_macro   0x00000000       0x4c ./Sources/testing.o
- .debug_line    0x00000000      0xfe0 ./Sources/testing.o
- .debug_str     0x00000000    0x515d8 ./Sources/testing.o
+ .debug_line    0x00000000     0x11a6 ./Sources/testing.o
+ .debug_str     0x00000000    0x52394 ./Sources/testing.o
  .comment       0x00000000       0x76 ./Sources/testing.o
- .debug_frame   0x00000000      0x2ec ./Sources/testing.o
+ .debug_frame   0x00000000      0x47c ./Sources/testing.o
  .ARM.attributes
                 0x00000000       0x2e ./Sources/testing.o
  .group         0x00000000        0x8 ./Sources/usbdmError.o

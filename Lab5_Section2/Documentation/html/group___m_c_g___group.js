@@ -1,0 +1,78 @@
+var group___m_c_g___group =
+[
+    [ "Mcg", "class_u_s_b_d_m_1_1_mcg.html", [
+      [ "clockTransition", "class_u_s_b_d_m_1_1_mcg.html#acffdf9269905c6a8bed06122c8d31bf5", null ],
+      [ "configure", "class_u_s_b_d_m_1_1_mcg.html#ab626a700a6ba2514c09517bef8892b69", null ],
+      [ "defaultConfigure", "class_u_s_b_d_m_1_1_mcg.html#a6075c08fb7d490a686cb40909310d045", null ],
+      [ "disableNvicInterrupts", "class_u_s_b_d_m_1_1_mcg.html#a9e90f9303603a1f1e215be61a6b88e1c", null ],
+      [ "enableNvicInterrupts", "class_u_s_b_d_m_1_1_mcg.html#aa5b122b4c71499fec5fee151b434550b", null ],
+      [ "enableNvicInterrupts", "class_u_s_b_d_m_1_1_mcg.html#aae95e87bd2d24c6e80c33356cd55fd9b", null ],
+      [ "finalise", "class_u_s_b_d_m_1_1_mcg.html#aa6355a268b456e12e2546fb7ecf142bf", null ],
+      [ "getClockMode", "class_u_s_b_d_m_1_1_mcg.html#a2561aedd55f3e9f12d157d21a024547f", null ],
+      [ "getClockModeName", "class_u_s_b_d_m_1_1_mcg.html#abae3b0a438ca92ae33ebb21437cad226", null ],
+      [ "getClockModeName", "class_u_s_b_d_m_1_1_mcg.html#a80b5ba2ad8891bcbc80e63b36e33be22", null ],
+      [ "initialise", "class_u_s_b_d_m_1_1_mcg.html#a3a5596ac2628661c210614ea062d49b2", null ],
+      [ "irqHandler", "class_u_s_b_d_m_1_1_mcg.html#aac98c2514d0ea191cef11253be4da4a8", null ],
+      [ "mcg", "class_u_s_b_d_m_1_1_mcg.html#a2995aac733f812177b84ec44bcccafe7", null ],
+      [ "setCallback", "class_u_s_b_d_m_1_1_mcg.html#ab791f14a09e708106f47d7f530a571f5", null ],
+      [ "setSysDividers", "class_u_s_b_d_m_1_1_mcg.html#aaa4e1c4a74da3d888281bc6ab58720d7", null ],
+      [ "SystemCoreClockUpdate", "class_u_s_b_d_m_1_1_mcg.html#a0597a9a409ecf6914be90f8ae0599d3b", null ],
+      [ "callback", "class_u_s_b_d_m_1_1_mcg.html#a3694cd564fd0b2e6c8630e798fdfad49", null ],
+      [ "clockInfo", "class_u_s_b_d_m_1_1_mcg.html#a67b4998a3e418e74650ac8a3f417bb0d", null ],
+      [ "currentClockMode", "class_u_s_b_d_m_1_1_mcg.html#a934249d5ba1f567b96ba052cdc71413d", null ]
+    ] ],
+    [ "McgInfo", "class_u_s_b_d_m_1_1_mcg_info.html", [
+      [ "ClockInfo", "struct_u_s_b_d_m_1_1_mcg_info_1_1_clock_info.html", [
+        [ "c1", "struct_u_s_b_d_m_1_1_mcg_info_1_1_clock_info.html#a15369d537af3c43d74808f643ae68951", null ],
+        [ "c2", "struct_u_s_b_d_m_1_1_mcg_info_1_1_clock_info.html#a0ad569344663ea46c05f7d92c2684ee8", null ],
+        [ "c4", "struct_u_s_b_d_m_1_1_mcg_info_1_1_clock_info.html#ac38d069a9f1cb550bedea1a0468e433c", null ],
+        [ "c5", "struct_u_s_b_d_m_1_1_mcg_info_1_1_clock_info.html#a9b3fff76ff15e01a9c4d1fb90645d751", null ],
+        [ "c6", "struct_u_s_b_d_m_1_1_mcg_info_1_1_clock_info.html#aa3fe6815536d6398de05795554c3b689", null ],
+        [ "c7", "struct_u_s_b_d_m_1_1_mcg_info_1_1_clock_info.html#a3a58d2a482bf90a38a64a5580663b4ca", null ],
+        [ "c8", "struct_u_s_b_d_m_1_1_mcg_info_1_1_clock_info.html#a10c5da6708566a86e7bfd02440cbb55e", null ],
+        [ "clkdiv1", "struct_u_s_b_d_m_1_1_mcg_info_1_1_clock_info.html#a7c776d8e50a2dd2767decbd6ce631ae7", null ],
+        [ "clockMode", "struct_u_s_b_d_m_1_1_mcg_info_1_1_clock_info.html#a188e6e354cb3c3a76091d33339cfdaa4", null ],
+        [ "sc", "struct_u_s_b_d_m_1_1_mcg_info_1_1_clock_info.html#a483be666186049b3f01f7a66f4a135f3", null ],
+        [ "sopt2", "struct_u_s_b_d_m_1_1_mcg_info_1_1_clock_info.html#a90a23b88d5a755ab091447d266c7c6c3", null ]
+      ] ],
+      [ "ClockMode", "class_u_s_b_d_m_1_1_mcg_info.html#a7cf787789cea16c997ea103b417df9c8", [
+        [ "ClockMode_None", "class_u_s_b_d_m_1_1_mcg_info.html#a7cf787789cea16c997ea103b417df9c8a25f4b36434c800e2c116feb7b63a3cf1", null ],
+        [ "ClockMode_FEI", "class_u_s_b_d_m_1_1_mcg_info.html#a7cf787789cea16c997ea103b417df9c8a7b452344c24ef73e6c6908edf27b20fb", null ],
+        [ "ClockMode_FEE", "class_u_s_b_d_m_1_1_mcg_info.html#a7cf787789cea16c997ea103b417df9c8a0fb3f880e570fa4aea2a179d999835cd", null ],
+        [ "ClockMode_FBI", "class_u_s_b_d_m_1_1_mcg_info.html#a7cf787789cea16c997ea103b417df9c8a15dd2994d86de470cc561b0ff00e897c", null ],
+        [ "ClockMode_BLPI", "class_u_s_b_d_m_1_1_mcg_info.html#a7cf787789cea16c997ea103b417df9c8adc16537f9ead26faa98ebb902f226af2", null ],
+        [ "ClockMode_FBE", "class_u_s_b_d_m_1_1_mcg_info.html#a7cf787789cea16c997ea103b417df9c8a878a1af3dadc2c1d17a23f9863e32747", null ],
+        [ "ClockMode_BLPE", "class_u_s_b_d_m_1_1_mcg_info.html#a7cf787789cea16c997ea103b417df9c8a2b73cf43f9b356cdf3daa95f227602e1", null ],
+        [ "ClockMode_PBE", "class_u_s_b_d_m_1_1_mcg_info.html#a7cf787789cea16c997ea103b417df9c8afeb9905ccffc9426de2fc90d47699df9", null ],
+        [ "ClockMode_PEE", "class_u_s_b_d_m_1_1_mcg_info.html#a7cf787789cea16c997ea103b417df9c8aab4138b0e4abbe1675aef1b1b259f098", null ]
+      ] ],
+      [ "getErcClock", "class_u_s_b_d_m_1_1_mcg_info.html#ac1832fdfa02a134cf3d354be2bf81bc7", null ],
+      [ "getInternalIrcClock", "class_u_s_b_d_m_1_1_mcg_info.html#a296b7a57d3105b4fdefc0e068a190b14", null ],
+      [ "getMcgIrClock", "class_u_s_b_d_m_1_1_mcg_info.html#afdde2c9500ae8e77aa6ceed770353fca", null ],
+      [ "mcg", "class_u_s_b_d_m_1_1_mcg_info.html#a97cf5f19a2006baf60070093cac32c8f", null ],
+      [ "baseAddress", "class_u_s_b_d_m_1_1_mcg_info.html#a9ebbe5bb28ec2b9b9f3d41fca6438710", null ],
+      [ "ERRATA_E2448", "class_u_s_b_d_m_1_1_mcg_info.html#ae6b522c1321c9f112fae907818ff9ecb", null ],
+      [ "irqCount", "class_u_s_b_d_m_1_1_mcg_info.html#a92eaab24df75c8f076b7d63ea96196bc", null ],
+      [ "irqHandlerInstalled", "class_u_s_b_d_m_1_1_mcg_info.html#a2235ca46c8ea42d7e2a22c96f0e30d9c", null ],
+      [ "irqLevel", "class_u_s_b_d_m_1_1_mcg_info.html#a7631e473aeffff20d8b7417c8c09a1e8", null ],
+      [ "irqNums", "class_u_s_b_d_m_1_1_mcg_info.html#a839f160586016a643c19ac0146751004", null ],
+      [ "pll_post_divider", "class_u_s_b_d_m_1_1_mcg_info.html#ad72ec083193824f2506aaaabc62cc296", null ],
+      [ "pll_vdiv_min", "class_u_s_b_d_m_1_1_mcg_info.html#a098fda6c5e72fb9ad7a2bd0c4c982d3d", null ],
+      [ "system_fast_irc_clock", "class_u_s_b_d_m_1_1_mcg_info.html#ad08a491689e62245444405c5a662aef4", null ],
+      [ "system_slow_irc_clock", "class_u_s_b_d_m_1_1_mcg_info.html#a5f1f58d0695a206e8e2e5d55958981bd", null ]
+    ] ],
+    [ "USBDM_MCG_IS_DEFINED", "group___m_c_g___group.html#gac0a6c26ce6d7a94e30e4c40e5c58a183", null ],
+    [ "MCGCallbackFunction", "group___m_c_g___group.html#ga7f84fe9f0bdb8881d148a97a2de50865", null ],
+    [ "ClockConfig", "group___m_c_g___group.html#ga7a3f88aee696150f11131655b5060278", [
+      [ "ClockConfig_PEE_48MHz", "group___m_c_g___group.html#gga7a3f88aee696150f11131655b5060278aef92c955472ac5ead729f4b9d4df4e12", null ],
+      [ "ClockConfig_BLPE_4MHz", "group___m_c_g___group.html#gga7a3f88aee696150f11131655b5060278a6ff12f95c136ff8d6cca0466aa43022d", null ],
+      [ "ClockConfig_FEE_40MHz", "group___m_c_g___group.html#gga7a3f88aee696150f11131655b5060278a3f4f7408faa0c6ea3590e4e4b1cacbdb", null ],
+      [ "ClockConfig_default", "group___m_c_g___group.html#gga7a3f88aee696150f11131655b5060278af9763388d7d41f345771dc64ecb51b16", null ]
+    ] ],
+    [ "setSysDividersStub", "group___m_c_g___group.html#gaea1994a6010465843f7ce2bf4404be87", null ],
+    [ "SystemLpoClock", "group___m_c_g___group.html#gac26c54e22e0bf3d8870a3b66fd27d960", null ],
+    [ "SystemMcgffClock", "group___m_c_g___group.html#ga7d686c02cb75e7e069e642abe800ecb5", null ],
+    [ "SystemMcgFllClock", "group___m_c_g___group.html#gaca25ebd386df2ede79885743b24a1bd3", null ],
+    [ "SystemMcgOutClock", "group___m_c_g___group.html#ga160f3b0a6b40713ad4d12e4d1da433e5", null ],
+    [ "SystemMcgPllClock", "group___m_c_g___group.html#ga0a7705fdbe04b94b7037a14372cf6440", null ]
+];

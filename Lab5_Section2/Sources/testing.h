@@ -22,7 +22,7 @@ using namespace USBDM;
 void testSetDirection();
 void testRead();
 void testWrite();
-
+void testReadPinFunction();
 //
 //System level testing
 //

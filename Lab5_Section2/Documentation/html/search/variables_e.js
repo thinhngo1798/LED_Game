@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['observe',['OBSERVE',['../struct_u_s_b___type.html#aa8cbc53b1ddc255d7be917ba3fc6b1f1',1,'USB_Type']]],
+  ['oc',['OC',['../struct_c_m_t___type.html#a6cde86fd27edc5afb37125c287441749',1,'CMT_Type']]],
+  ['odd',['odd',['../union_usb_stat.html#aac5e013f22f39c08d6b7e607cb018826',1,'UsbStat']]],
+  ['ofs',['OFS',['../struct_a_d_c___type.html#a1081f8facbb93133c09e83ef18b90b10',1,'ADC_Type']]],
+  ['osc32k_5fclock',['osc32k_clock',['../class_u_s_b_d_m_1_1_osc0_info.html#a27bced9183f7d17f218a43fde80c4e8b',1,'USBDM::Osc0Info']]],
+  ['osc_5fclock',['osc_clock',['../class_u_s_b_d_m_1_1_osc0_info.html#a73acad1598eab76f71ae7873a95ae602',1,'USBDM::Osc0Info']]],
+  ['osc_5finput_5ffreq',['osc_input_freq',['../class_u_s_b_d_m_1_1_rtc_info.html#a80633ad9d0b524955dcf433052e1b70d',1,'USBDM::RtcInfo']]],
+  ['otgctl',['OTGCTL',['../struct_u_s_b___type.html#a29fdcad4635573158769b379244874c6',1,'USB_Type']]],
+  ['otgicr',['OTGICR',['../struct_u_s_b___type.html#ac63531ec3a52f634997a5f27a938232e',1,'USB_Type']]],
+  ['otgistat',['OTGISTAT',['../struct_u_s_b___type.html#a33ddb4989093727ebbeaabdcbb30a9be',1,'USB_Type']]],
+  ['otgstat',['OTGSTAT',['../struct_u_s_b___type.html#adb73c0ed8ec05b05499d164fee6a6d9c',1,'USB_Type']]],
+  ['outinit',['OUTINIT',['../struct_f_t_m___type.html#aeed5243aad98ae4a5f0f4eb769ee5da9',1,'FTM_Type::OUTINIT()'],['../struct_f_t_m1___type.html#a3c625df20c0650dbc4819e1f26212159',1,'FTM1_Type::OUTINIT()']]],
+  ['outmask',['OUTMASK',['../struct_f_t_m___type.html#a624050c92b74b9952d2cde560e5ee41c',1,'FTM_Type::OUTMASK()'],['../struct_f_t_m1___type.html#ab0a7a77094365e4b8741f01799e20674',1,'FTM1_Type::OUTMASK()']]],
+  ['outputpin',['outputPin',['../class_u_s_b_d_m_1_1_cmp0_info.html#a229e2ba41a092875c188e884e9edbb24',1,'USBDM::Cmp0Info::outputPin()'],['../class_u_s_b_d_m_1_1_cmp1_info.html#a64d13d40f1ff29e12ac9a0c3149bebc5',1,'USBDM::Cmp1Info::outputPin()']]],
+  ['overrun',['overrun',['../struct_cdc_line_state.html#a2afa95f132ae2d9e84717cfd7be68b53',1,'CdcLineState']]],
+  ['own',['own',['../struct_bdt_entry.html#a74933605825f2cacbf37d431356a380d',1,'BdtEntry']]]
+];

@@ -1,0 +1,26 @@
+var class_u_s_b_d_m_1_1_tsi0 =
+[
+    [ "configureAllPins", "class_u_s_b_d_m_1_1_tsi0.html#aa040ad8d66e8e074f5473121c760182a", null ],
+    [ "defaultConfigure", "class_u_s_b_d_m_1_1_tsi0.html#a0d27b2e864093b94ff42e2e97b0ffd40", null ],
+    [ "disableNvicInterrupts", "class_u_s_b_d_m_1_1_tsi0.html#a09001292db910516ca7f5e50ef0507df", null ],
+    [ "enable", "class_u_s_b_d_m_1_1_tsi0.html#a6266f512ccfd840864ec8ff1faff9d01", null ],
+    [ "enableNvicInterrupts", "class_u_s_b_d_m_1_1_tsi0.html#ab8f6f2c411585a6946e2e252539e6dc8", null ],
+    [ "enableNvicInterrupts", "class_u_s_b_d_m_1_1_tsi0.html#a2bbb6761c15deeacb5516b19c55e89c6", null ],
+    [ "enableTsiInterrupts", "class_u_s_b_d_m_1_1_tsi0.html#a18691e1cf34ff5862867557b730b2adb", null ],
+    [ "getCount", "class_u_s_b_d_m_1_1_tsi0.html#a88e5d0575db441f515d96f770f65480f", null ],
+    [ "irqHandler", "class_u_s_b_d_m_1_1_tsi0.html#a2dc04b63c8a152749dca0c9a9711162c", null ],
+    [ "limitElectrode", "class_u_s_b_d_m_1_1_tsi0.html#abb5143bbaf37f587e96947fd3182409e", null ],
+    [ "selectInputs", "class_u_s_b_d_m_1_1_tsi0.html#a747be50edb324ca24d3db707b63e4344", null ],
+    [ "setCallback", "class_u_s_b_d_m_1_1_tsi0.html#a499f9526e549478de763faf7abe9855a", null ],
+    [ "setClock", "class_u_s_b_d_m_1_1_tsi0.html#a2dfca52204d9281bf0efb80ac8547862", null ],
+    [ "setCurrents", "class_u_s_b_d_m_1_1_tsi0.html#aa54b9d9b5d80de2d9c735d28ceb56eba", null ],
+    [ "setLowPowerClock", "class_u_s_b_d_m_1_1_tsi0.html#a1c9f314b6cea1e29f03da5c03e3c82e4", null ],
+    [ "setLowPowerThresholds", "class_u_s_b_d_m_1_1_tsi0.html#a123455f65ea7bcae991bac02bc773e29", null ],
+    [ "setSamplePeriod", "class_u_s_b_d_m_1_1_tsi0.html#a0de57b6b6c841441d6fd2c399f09cb65", null ],
+    [ "setScans", "class_u_s_b_d_m_1_1_tsi0.html#a55c8db0c957b8d7dfa645dd0947aad69", null ],
+    [ "startScan", "class_u_s_b_d_m_1_1_tsi0.html#a639208fe2367a2ac3a1ccb3aadb2a3f1", null ],
+    [ "startScanAndWait", "class_u_s_b_d_m_1_1_tsi0.html#a44c2f002b5d162f173191bb88faccc26", null ],
+    [ "tsi", "class_u_s_b_d_m_1_1_tsi0.html#a833a7d00ee7f82c8ed816c620f50747d", null ],
+    [ "unhandledCallback", "class_u_s_b_d_m_1_1_tsi0.html#a950c4aa227802378e7c2b20c70833be9", null ],
+    [ "sCallback", "class_u_s_b_d_m_1_1_tsi0.html#gad708611cc0d4ab8982d36bb818b204c9", null ]
+];

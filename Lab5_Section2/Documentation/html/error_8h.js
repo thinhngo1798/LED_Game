@@ -1,0 +1,37 @@
+var error_8h =
+[
+    [ "USBDM_ASSERT", "error_8h.html#a20dc9974725f6ce7763fd88b4d1f2d1a", null ],
+    [ "usbdm_assert", "error_8h.html#ad85546c3822965abd94bc5e72243f313", null ],
+    [ "USBDM_STRINGIFY", "error_8h.html#a16d0ed9fe190be0ff917ae888bfe7126", null ],
+    [ "USBDM_TOSTRING", "error_8h.html#a4da657191daa561efe765756a1d257ad", null ],
+    [ "ErrorCode", "error_8h.html#af5406ca776612b2687e916fb194ffd26", [
+      [ "E_NO_ERROR", "error_8h.html#af5406ca776612b2687e916fb194ffd26a4ba45ce064022eb4eb90e52c3d48a83a", null ],
+      [ "E_ERROR", "error_8h.html#af5406ca776612b2687e916fb194ffd26a89cbcc9ade37099d0fda941406494c67", null ],
+      [ "E_TOO_SMALL", "error_8h.html#af5406ca776612b2687e916fb194ffd26ae63ed12cf12e6aae5268a6196e42cba7", null ],
+      [ "E_TOO_LARGE", "error_8h.html#af5406ca776612b2687e916fb194ffd26ac6da2f7e00c7d716f355e2a867bcd7f4", null ],
+      [ "E_ILLEGAL_PARAM", "error_8h.html#af5406ca776612b2687e916fb194ffd26a6544f386d99ec39474a4e446557f586b", null ],
+      [ "E_NO_HANDLER", "error_8h.html#af5406ca776612b2687e916fb194ffd26a86427929463e65c0d9bc2d1cb22b425d", null ],
+      [ "E_FLASH_INIT_FAILED", "error_8h.html#af5406ca776612b2687e916fb194ffd26a38fcfc2739615ef620994037a082ac42", null ],
+      [ "E_CALIBRATE_FAIL", "error_8h.html#af5406ca776612b2687e916fb194ffd26a1ff24dfbeb5e664f1e400e1dde7b3085", null ],
+      [ "E_ILLEGAL_POWER_TRANSITION", "error_8h.html#af5406ca776612b2687e916fb194ffd26a9fa09abd900437fe3d30794874d16571", null ],
+      [ "E_NO_COMMUNICATION", "error_8h.html#af5406ca776612b2687e916fb194ffd26a312fd11e9b744e70aeb30ef5c99d687b", null ],
+      [ "E_NO_ACK", "error_8h.html#af5406ca776612b2687e916fb194ffd26a1044b3a5019e218fe1e468928067f98d", null ],
+      [ "E_LOST_ARBITRATION", "error_8h.html#af5406ca776612b2687e916fb194ffd26a9e1596074b8d0f066e7ce1fd39e484ca", null ],
+      [ "E_TERMINATED", "error_8h.html#af5406ca776612b2687e916fb194ffd26a7effdca985e75d43a27b2e460afca679", null ],
+      [ "E_CLOCK_INIT_FAILED", "error_8h.html#af5406ca776612b2687e916fb194ffd26a0a769f9242a8e011bb736b50aa982e4d", null ],
+      [ "E_HANDLER_ALREADY_SET", "error_8h.html#af5406ca776612b2687e916fb194ffd26ad0fb299d48f8c9303bde0fb8d9bd62b2", null ],
+      [ "E_NO_RESOURCE", "error_8h.html#af5406ca776612b2687e916fb194ffd26a530f47258a51fceb0908aaa6b19ce0ad", null ],
+      [ "E_CMSIS_ERR_OFFSET", "error_8h.html#af5406ca776612b2687e916fb194ffd26afa97c328beb3bd500afa8a608815c19c", null ]
+    ] ],
+    [ "_exit", "error_8h.html#a31dcaff181eaa6a8cfb484e35f23fb5f", null ],
+    [ "_usbdm_assert", "error_8h.html#af603ba6943e5d048761765d16c088fcc", null ],
+    [ "abort", "error_8h.html#acb8713126ebed89ee7528d15323c1b79", null ],
+    [ "checkError", "error_8h.html#ab59696ecaf96d6ee79249ea003869d7a", null ],
+    [ "clearError", "error_8h.html#aae567a84a0fc1fd3084a2b5d9901f720", null ],
+    [ "getError", "error_8h.html#aec9cc53f04750cf4286d4a3ec21a99ea", null ],
+    [ "getErrorMessage", "error_8h.html#a93713bfeb3d07a512eaf298a677cb320", null ],
+    [ "log_error", "error_8h.html#a382c1f61ae1f91087cc301e36376674e", null ],
+    [ "setAndCheckErrorCode", "error_8h.html#a548302f2808bbd1f1b0eda57a12cec67", null ],
+    [ "setErrorCode", "error_8h.html#a8fa1fae9ec2f8c7ba1897a2561cb971c", null ],
+    [ "errorCode", "error_8h.html#a53be85568b024b5067b963cdd5c897f8", null ]
+];

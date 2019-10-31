@@ -1,0 +1,77 @@
+var group___e_w_m___group =
+[
+    [ "EwmBase_T", "class_u_s_b_d_m_1_1_ewm_base___t.html", [
+      [ "configure", "class_u_s_b_d_m_1_1_ewm_base___t.html#a8ca98cfe05ed628703d8606e84a42905", null ],
+      [ "configureAllPins", "class_u_s_b_d_m_1_1_ewm_base___t.html#a92a13cb178dde122fa7940c208afff42", null ],
+      [ "defaultConfigure", "class_u_s_b_d_m_1_1_ewm_base___t.html#a540701c8c37bafbea85cee7c1f5d31d3", null ],
+      [ "disable", "class_u_s_b_d_m_1_1_ewm_base___t.html#ad85c612f636b98831eb882fd713ea7c8", null ],
+      [ "disableNvicInterrupts", "class_u_s_b_d_m_1_1_ewm_base___t.html#aa232f27e91b28f2d1ba3d2b507edb2e1", null ],
+      [ "enable", "class_u_s_b_d_m_1_1_ewm_base___t.html#a365902c1d0b67c3bcd97a6376ca22d6c", null ],
+      [ "enableInterrupt", "class_u_s_b_d_m_1_1_ewm_base___t.html#a09651cdd8230762e78c71bbd5fc24362", null ],
+      [ "enableNvicInterrupts", "class_u_s_b_d_m_1_1_ewm_base___t.html#a1a3b04462679af32937c1c9a056eaa71", null ],
+      [ "enableNvicInterrupts", "class_u_s_b_d_m_1_1_ewm_base___t.html#ab10d8bbfbdb6c7d56ab0de655500a027", null ],
+      [ "ewm", "class_u_s_b_d_m_1_1_ewm_base___t.html#aa6748c0ac981c3cca6d483a93cbd1363", null ],
+      [ "irqHandler", "class_u_s_b_d_m_1_1_ewm_base___t.html#a5ab5193fa88696231d4cb7f14f5656a7", null ],
+      [ "setCallback", "class_u_s_b_d_m_1_1_ewm_base___t.html#a38c7d0309c31afb25bfd54fce9ea21eb", null ],
+      [ "setInput", "class_u_s_b_d_m_1_1_ewm_base___t.html#a5cf29e7e864ff60914f68f48227acd1f", null ],
+      [ "setInput", "class_u_s_b_d_m_1_1_ewm_base___t.html#a52abd62f9e0d3958c9924897988975b8", null ],
+      [ "setOutput", "class_u_s_b_d_m_1_1_ewm_base___t.html#a632f1e712a8557276e6c167a8f2b9137", null ],
+      [ "setOutput", "class_u_s_b_d_m_1_1_ewm_base___t.html#aa7902c42c4ea984cf6cf6065d54a2b32", null ],
+      [ "setWindow", "class_u_s_b_d_m_1_1_ewm_base___t.html#a7cb381fdd9fc66c47d28f30ff37a709c", null ],
+      [ "unhandledCallback", "class_u_s_b_d_m_1_1_ewm_base___t.html#a1880f5c7fe6bff5fbebb2b89c0ffaabb", null ],
+      [ "writeKeys", "class_u_s_b_d_m_1_1_ewm_base___t.html#abea148ead96bff6c7253ca03dcae9ae7", null ],
+      [ "sCallback", "group___e_w_m___group.html#ga2e6f7760bed1478bed3072ff12ea7181", null ]
+    ] ],
+    [ "Ewm", "class_u_s_b_d_m_1_1_ewm.html", [
+      [ "configure", "class_u_s_b_d_m_1_1_ewm.html#a8ca98cfe05ed628703d8606e84a42905", null ],
+      [ "configureAllPins", "class_u_s_b_d_m_1_1_ewm.html#a92a13cb178dde122fa7940c208afff42", null ],
+      [ "defaultConfigure", "class_u_s_b_d_m_1_1_ewm.html#a540701c8c37bafbea85cee7c1f5d31d3", null ],
+      [ "disable", "class_u_s_b_d_m_1_1_ewm.html#ad85c612f636b98831eb882fd713ea7c8", null ],
+      [ "disableNvicInterrupts", "class_u_s_b_d_m_1_1_ewm.html#aa232f27e91b28f2d1ba3d2b507edb2e1", null ],
+      [ "enable", "class_u_s_b_d_m_1_1_ewm.html#a365902c1d0b67c3bcd97a6376ca22d6c", null ],
+      [ "enableInterrupt", "class_u_s_b_d_m_1_1_ewm.html#a09651cdd8230762e78c71bbd5fc24362", null ],
+      [ "enableNvicInterrupts", "class_u_s_b_d_m_1_1_ewm.html#a1a3b04462679af32937c1c9a056eaa71", null ],
+      [ "enableNvicInterrupts", "class_u_s_b_d_m_1_1_ewm.html#ab10d8bbfbdb6c7d56ab0de655500a027", null ],
+      [ "ewm", "class_u_s_b_d_m_1_1_ewm.html#aa6748c0ac981c3cca6d483a93cbd1363", null ],
+      [ "irqHandler", "class_u_s_b_d_m_1_1_ewm.html#a5ab5193fa88696231d4cb7f14f5656a7", null ],
+      [ "setCallback", "class_u_s_b_d_m_1_1_ewm.html#a38c7d0309c31afb25bfd54fce9ea21eb", null ],
+      [ "setInput", "class_u_s_b_d_m_1_1_ewm.html#a5cf29e7e864ff60914f68f48227acd1f", null ],
+      [ "setInput", "class_u_s_b_d_m_1_1_ewm.html#a52abd62f9e0d3958c9924897988975b8", null ],
+      [ "setOutput", "class_u_s_b_d_m_1_1_ewm.html#a632f1e712a8557276e6c167a8f2b9137", null ],
+      [ "setOutput", "class_u_s_b_d_m_1_1_ewm.html#aa7902c42c4ea984cf6cf6065d54a2b32", null ],
+      [ "setWindow", "class_u_s_b_d_m_1_1_ewm.html#a7cb381fdd9fc66c47d28f30ff37a709c", null ],
+      [ "unhandledCallback", "class_u_s_b_d_m_1_1_ewm.html#a1880f5c7fe6bff5fbebb2b89c0ffaabb", null ],
+      [ "writeKeys", "class_u_s_b_d_m_1_1_ewm.html#abea148ead96bff6c7253ca03dcae9ae7", null ],
+      [ "sCallback", "class_u_s_b_d_m_1_1_ewm.html#ga2e6f7760bed1478bed3072ff12ea7181", null ]
+    ] ],
+    [ "EwmInfo", "class_u_s_b_d_m_1_1_ewm_info.html", [
+      [ "clearPCRs", "class_u_s_b_d_m_1_1_ewm_info.html#a3939d1b3954f299f1d220ecd6cac6503", null ],
+      [ "disableClock", "class_u_s_b_d_m_1_1_ewm_info.html#a7d2696270f2e5fc56e332860ebb1599e", null ],
+      [ "enableClock", "class_u_s_b_d_m_1_1_ewm_info.html#a52301fdb923f302dd0fbd95f123a6a0e", null ],
+      [ "ewm", "class_u_s_b_d_m_1_1_ewm_info.html#a9221b183ddbf69a374d3e73c63087811", null ],
+      [ "initPCRs", "class_u_s_b_d_m_1_1_ewm_info.html#a3dd3b633a4e9d5daf33f01b2bf7a6817", null ],
+      [ "baseAddress", "class_u_s_b_d_m_1_1_ewm_info.html#a1b98a54cf50df9a14c786a3ab0cd3f74", null ],
+      [ "defaultPcrValue", "class_u_s_b_d_m_1_1_ewm_info.html#aecb413c9817a23b4c676e7f39061829a", null ],
+      [ "info", "class_u_s_b_d_m_1_1_ewm_info.html#ac360f286f7525042678a9b8d7a82bdfd", null ],
+      [ "irqCount", "class_u_s_b_d_m_1_1_ewm_info.html#a271c4cda3a495f2d2b889d5a78f472a1", null ],
+      [ "irqHandlerInstalled", "class_u_s_b_d_m_1_1_ewm_info.html#a31bc58162cb6640541424e87758b43c7", null ],
+      [ "irqLevel", "class_u_s_b_d_m_1_1_ewm_info.html#a892d511035931e603dcddf7142fcb20e", null ],
+      [ "irqNums", "class_u_s_b_d_m_1_1_ewm_info.html#a57c7b9920b4f8d59e8d2f2e01c0f8f89", null ],
+      [ "mapPinsOnEnable", "class_u_s_b_d_m_1_1_ewm_info.html#afefb9f486e94aec2f1f2d157b8e2e036", null ],
+      [ "numSignals", "class_u_s_b_d_m_1_1_ewm_info.html#ade67a4cc5c425406688d15c1de34d4c4", null ]
+    ] ],
+    [ "USBDM_EWM_IS_DEFINED", "group___e_w_m___group.html#ga594700ca09ca8b1222c581e673df1d92", null ],
+    [ "EWMCallbackFunction", "group___e_w_m___group.html#gaa91dda3657136d3919f518fef77ed5f8", null ],
+    [ "EwmInput", "group___e_w_m___group.html#ga729f452054a9878d5dddfa8e020eea9e", [
+      [ "EwmInput_Disabled", "group___e_w_m___group.html#gga729f452054a9878d5dddfa8e020eea9eadd6c49a7b8228ab7d33b75a9f91498a9", null ],
+      [ "EwmInput_ActiveLow", "group___e_w_m___group.html#gga729f452054a9878d5dddfa8e020eea9eaaf71e9f3e5129d95e429a57d46a05918", null ],
+      [ "EwmInput_ActiveHighe", "group___e_w_m___group.html#gga729f452054a9878d5dddfa8e020eea9ea47e0828976d10e80ac5691ec667ee478", null ]
+    ] ],
+    [ "EwmInterrupt", "group___e_w_m___group.html#gaee8dffd249bf3bbf47ab85086266576f", [
+      [ "EwmInterrupt_Disabled", "group___e_w_m___group.html#ggaee8dffd249bf3bbf47ab85086266576fac31b0ad22006bc9fe0f076faaecdafff", null ],
+      [ "EwmInterrupt_Enabled", "group___e_w_m___group.html#ggaee8dffd249bf3bbf47ab85086266576faafeb0920c79803de56f6cb6cd8531397", null ]
+    ] ],
+    [ "EwmKey1", "group___e_w_m___group.html#gaba9cf8dd2bf7e9d0c99987af4e02345c", null ],
+    [ "EwmKey2", "group___e_w_m___group.html#ga439738ba3ebc192e6b16c3ba7716b888", null ],
+    [ "sCallback", "group___e_w_m___group.html#ga2e6f7760bed1478bed3072ff12ea7181", null ]
+];

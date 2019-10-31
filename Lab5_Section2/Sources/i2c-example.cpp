@@ -117,15 +117,16 @@ void initialisePIT()
 
 int main() {
 
-   // Declare I2C interface
+    //Declare I2C interface
    initialisePIT();
    initializeTheAccelerometer();
    I2c0 i2c{I2C_SPEED, I2cMode_Polled};
 
    setDirection(0b00000000);
-
    for(;;)
    {
+//	   testReadPinFunction();
+//	   waitMS(1000);
    }
 }
 
