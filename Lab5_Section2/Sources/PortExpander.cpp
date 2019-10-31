@@ -80,3 +80,20 @@ void setPinDirection(uint8_t pinNumber)
 	directionValue |= (1<<pinNumber);
 	setDirection(directionValue);
 }
+
+/**
+ * Set the direction of a single pin.
+ * @param pinNumber the order of the pin (0 ... 7)
+ */
+void setPinDirection(uint8_t pinNumber, uint8_t isInput)
+{
+	uint8_t directionValue = readRegister(RegAddress_IODIR);
+	if (isInput) {
+		directionValue |= (1<<pinNumber);
+	}
+	else
+	{
+		directionValue &= ~(1 << pinNumber);
+	}
+	setDirection(directionValue);
+}
