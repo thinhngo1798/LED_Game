@@ -184,48 +184,69 @@
 00002100 W USBDM::I2cBase_T<USBDM::I2c0Info>::~I2cBase_T()
 00002100 W USBDM::I2cBase_T<USBDM::I2c0Info>::~I2cBase_T()
 00002124 W USBDM::I2cBase_T<USBDM::I2c0Info>::~I2cBase_T()
-000021c8 T USBDM::waitMS(unsigned long)
-00002218 T main
-00002274 W USBDM::I2c::waitWhileBusy()
-000022b8 T USBDM::I2c::getBPSValue(unsigned long, unsigned long)
-0000236c T USBDM::I2c::sendAddress(unsigned char)
-000023ce T USBDM::I2c::poll()
-000025f6 T USBDM::I2c::txRx(unsigned char, unsigned short, unsigned char const*, unsigned short, unsigned char*)
-0000264c T USBDM::I2c::txRx(unsigned char, unsigned short, unsigned short, unsigned char*)
-00002684 T cpp_initialise
-00002690 T __aeabi_atexit
-0000269a T operator delete(void*, unsigned int)
-0000269e T operator delete(void*)
-000026a4 T __cxa_atexit
-000026c0 T exit
-000026e8 T __libc_init_array
-00002730 T free
-00002740 T memset
-00002750 T _free_r
-000027ec T __malloc_lock
-000027f8 T __malloc_unlock
-00002804 T __retarget_lock_acquire_recursive
-00002806 T __retarget_lock_release_recursive
-00002918 V vtable for USBDM::Uart_brfa_T<USBDM::Uart0Info>
-00002944 V vtable for USBDM::Uart_T<USBDM::Uart0Info>
-00002970 V vtable for USBDM::Uart
-0000299c V vtable for USBDM::FormattedIO
-000029c0 T USBDM::Mcg::clockInfo
-00002a3c V vtable for USBDM::I2cBase_T<USBDM::I2c0Info>
-00002a5c T USBDM::I2c::I2C_DIVISORS
-00002adc T vtable for USBDM::I2c
-00002af4 T _global_impure_ptr
-00002af8 T _init
-00002b04 T _fini
-00002b10 T __CTOR_END__
-00002b10 T __CTOR_LIST__
-00002b10 T __DTOR_END__
-00002b10 T __DTOR_LIST__
-00002b2c T __exidx_start
-00002b34 R __DATA_ROM
-00002b34 R __etext
-00002b34 R __exidx_end
-00002ba4 A __DATA_END
+000021c8 T USBDM::waitUS(unsigned long)
+00002218 T USBDM::waitMS(unsigned long)
+00002268 W USBDM::I2c::waitWhileBusy()
+000022ac T USBDM::I2c::getBPSValue(unsigned long, unsigned long)
+00002360 T USBDM::I2c::sendAddress(unsigned char)
+000023c2 T USBDM::I2c::poll()
+000025ea T USBDM::I2c::transmit(unsigned char, unsigned short, unsigned char const*)
+0000263a T USBDM::I2c::txRx(unsigned char, unsigned short, unsigned char const*, unsigned short, unsigned char*)
+00002690 T USBDM::I2c::txRx(unsigned char, unsigned short, unsigned short, unsigned char*)
+000026c8 W USBDM::FormattedIO::write(long, USBDM::Radix)
+00002722 W USBDM::FormattedIO::writeln(long, USBDM::Radix)
+0000274c W USBDM::FormattedIO::write(int, USBDM::Radix)
+00002770 W USBDM::FormattedIO::writeln(int, USBDM::Radix)
+00002794 W USBDM::MMA845x::cr1Value(USBDM::MMA845x::AccelDataRate, USBDM::MMA845x::AccelSleepDataRate, bool, bool, bool)
+000027f8 T calculateTheDegree(short)
+00002830 T printTheCurrentLevel(unsigned int)
+0000285c T report(USBDM::MMA845x&)
+00002928 T main
+00002a6c T USBDM::MMA845x::MMA845x(USBDM::I2c&, USBDM::MMA845x::AccelerometerMode, unsigned char)
+00002a6c T USBDM::MMA845x::MMA845x(USBDM::I2c&, USBDM::MMA845x::AccelerometerMode, unsigned char)
+00002ac4 T USBDM::MMA845x::readReg(unsigned char)
+00002af4 T USBDM::MMA845x::writeReg(unsigned char, unsigned char)
+00002b24 T USBDM::MMA845x::reset()
+00002b46 T USBDM::MMA845x::readAccelerometerXYZ(int&, short&, short&, short&)
+00002bde T USBDM::MMA845x::configure(USBDM::MMA845x::AccelerometerMode, unsigned char)
+00002c18 T USBDM::MMA845x::readID()
+00002c44 T USBDM::MMA845x::calibrateAccelerometer()
+00002dd8 T USBDM::getErrorMessage(USBDM::ErrorCode)
+00002e04 T USBDM::checkError()
+00002e54 T cpp_initialise
+00002e60 T __aeabi_atexit
+00002e6a T operator delete(void*, unsigned int)
+00002e6e T operator delete(void*)
+00002e74 T __cxa_atexit
+00002e90 T exit
+00002eb8 T __libc_init_array
+00002f00 T free
+00002f10 T memset
+00002f20 T _free_r
+00002fbc T __malloc_lock
+00002fc8 T __malloc_unlock
+00002fd4 T __retarget_lock_acquire_recursive
+00002fd6 T __retarget_lock_release_recursive
+00003344 V vtable for USBDM::Uart_brfa_T<USBDM::Uart0Info>
+00003370 V vtable for USBDM::Uart_T<USBDM::Uart0Info>
+0000339c V vtable for USBDM::Uart
+000033c8 V vtable for USBDM::FormattedIO
+000033ec T USBDM::Mcg::clockInfo
+00003468 V vtable for USBDM::I2cBase_T<USBDM::I2c0Info>
+00003488 T USBDM::I2c::I2C_DIVISORS
+00003508 T vtable for USBDM::I2c
+0000353c T _global_impure_ptr
+00003540 T _init
+0000354c T _fini
+00003558 T __CTOR_END__
+00003558 T __CTOR_LIST__
+00003558 T __DTOR_END__
+00003558 T __DTOR_LIST__
+00003578 T __exidx_start
+00003580 R __DATA_ROM
+00003580 R __etext
+00003580 R __exidx_end
+00003630 A __DATA_END
 1fffe000 D __DATA_RAM
 1fffe000 D __data_start__
 1fffe000 D __dso_handle
@@ -236,34 +257,36 @@
 1fffe000 ? _mtb_start
 1fffe004 V SystemCoreClock
 1fffe008 V SystemBusClock
-1fffe00c D _impure_ptr
-1fffe070 B __bss_start__
-1fffe070 D __data_end__
-1fffe070 B __START_BSS
-1fffe08c B USBDM::console
-1fffe0a4 B USBDM::SystemMcgffClock
-1fffe0a8 B USBDM::SystemMcgOutClock
-1fffe0ac B USBDM::SystemMcgFllClock
-1fffe0b0 B USBDM::SystemMcgPllClock
-1fffe0b4 B USBDM::SystemLpoClock
-1fffe0b8 B USBDM::Mcg::currentClockMode
-1fffe0bc B i2c
-1fffe0e0 V USBDM::I2cBase_T<USBDM::I2c0Info>::thisPtr
-1fffe0e4 B USBDM::errorCode
-1fffe0e8 B __malloc_free_list
-1fffe0ec B __lock___atexit_recursive_mutex
-1fffe0ed B __lock___arc4random_mutex
-1fffe0ee B __lock___env_recursive_mutex
-1fffe0ef B __lock___sinit_recursive_mutex
-1fffe0f0 B __lock___malloc_recursive_mutex
-1fffe0f1 B __lock___at_quick_exit_mutex
-1fffe0f2 B __lock___dd_hash_mutex
-1fffe0f3 B __lock___tz_mutex
-1fffe0f4 B __lock___sfp_recursive_mutex
-1fffe0f8 B __bss_end__
-1fffe0f8 B __END_BSS
-1fffe0f8 B __heap_addr
-1fffe0f8 B __HeapBase
+1fffe04c D _impure_ptr
+1fffe0b0 B __bss_start__
+1fffe0b0 D __data_end__
+1fffe0b0 B __START_BSS
+1fffe0cc B USBDM::console
+1fffe0e4 B USBDM::SystemMcgffClock
+1fffe0e8 B USBDM::SystemMcgOutClock
+1fffe0ec B USBDM::SystemMcgFllClock
+1fffe0f0 B USBDM::SystemMcgPllClock
+1fffe0f4 B USBDM::SystemLpoClock
+1fffe0f8 B USBDM::Mcg::currentClockMode
+1fffe0fc B i2c
+1fffe120 V USBDM::I2cBase_T<USBDM::I2c0Info>::thisPtr
+1fffe124 B i2c0
+1fffe148 B accelerometer
+1fffe14c B USBDM::errorCode
+1fffe150 B __malloc_free_list
+1fffe154 B __lock___atexit_recursive_mutex
+1fffe155 B __lock___arc4random_mutex
+1fffe156 B __lock___env_recursive_mutex
+1fffe157 B __lock___sinit_recursive_mutex
+1fffe158 B __lock___malloc_recursive_mutex
+1fffe159 B __lock___at_quick_exit_mutex
+1fffe15a B __lock___dd_hash_mutex
+1fffe15b B __lock___tz_mutex
+1fffe15c B __lock___sfp_recursive_mutex
+1fffe160 B __bss_end__
+1fffe160 B __END_BSS
+1fffe160 B __heap_addr
+1fffe160 B __HeapBase
 1fffffff A __HeapLimit
 20001000 B __StackLimit
 20002000 B __stack

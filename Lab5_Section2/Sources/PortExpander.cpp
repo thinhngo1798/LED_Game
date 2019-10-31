@@ -13,7 +13,7 @@ using namespace USBDM;
 
 	 static const unsigned I2C_SPEED   = 400*kHz;
 
-static const unsigned I2C_ADDRESS = 0x1D<<1;
+static const unsigned I2C_ADDRESS = 0x20<<1;
 
 
 I2c0 i2c{I2C_SPEED, I2cMode_Polled};

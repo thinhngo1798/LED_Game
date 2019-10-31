@@ -21,7 +21,8 @@ Sources/i2c-example.o Sources/i2c-example.o: ../Sources/i2c-example.cpp \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/derivative.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/formatted_io.h \
- C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart_queue.h
+ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart_queue.h \
+ ../Sources/PortExpander.h
 
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/i2c.h:
 
@@ -68,3 +69,5 @@ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart.h:
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/formatted_io.h:
 
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart_queue.h:
+
+../Sources/PortExpander.h:

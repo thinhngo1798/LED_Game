@@ -1852,8 +1852,6 @@ Discarded input sections
                 0x00000000       0x18 ./Sources/delay.o
  .rodata._ZN5USBDML10TIMER_MASKE
                 0x00000000        0x4 ./Sources/delay.o
- .text._ZN5USBDM6waitUSEm
-                0x00000000       0x50 ./Sources/delay.o
  .text._ZN5USBDM4waitEf
                 0x00000000       0x48 ./Sources/delay.o
  .text._ZN5USBDML9waitTicksExPFbvE
@@ -2398,42 +2396,6 @@ Discarded input sections
  .debug_frame   0x00000000       0x54 ./Sources/hardware.o
  .ARM.attributes
                 0x00000000       0x2e ./Sources/hardware.o
- .group         0x00000000       0x10 ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0x8 ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0x8 ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0x8 ./Sources/i2c-example.o
- .group         0x00000000        0x8 ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000       0x14 ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0x8 ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0x8 ./Sources/i2c-example.o
- .group         0x00000000        0x8 ./Sources/i2c-example.o
- .group         0x00000000        0x8 ./Sources/i2c-example.o
- .group         0x00000000        0xc ./Sources/i2c-example.o
- .group         0x00000000        0x8 ./Sources/i2c-example.o
  .group         0x00000000        0xc ./Sources/i2c-example.o
  .group         0x00000000        0xc ./Sources/i2c-example.o
  .group         0x00000000        0xc ./Sources/i2c-example.o
@@ -2502,8 +2464,6 @@ Discarded input sections
  .text          0x00000000        0x0 ./Sources/i2c-example.o
  .data          0x00000000        0x0 ./Sources/i2c-example.o
  .bss           0x00000000        0x0 ./Sources/i2c-example.o
- .text.NVIC_EnableIRQ
-                0x00000000       0x34 ./Sources/i2c-example.o
  .rodata._ZN5USBDML2nsE
                 0x00000000        0x4 ./Sources/i2c-example.o
  .rodata._ZN5USBDML2usE
@@ -2526,8 +2486,6 @@ Discarded input sections
                 0x00000000        0x1 ./Sources/i2c-example.o
  .rodata._ZN5USBDML12UNMAPPED_PCRE
                 0x00000000        0x1 ./Sources/i2c-example.o
- .text._ZN5USBDML16enablePortClocksEm
-                0x00000000       0x34 ./Sources/i2c-example.o
  .rodata._ZN5USBDML16PORTA_CLOCK_MASKE
                 0x00000000        0x4 ./Sources/i2c-example.o
  .rodata._ZN5USBDML16PORTB_CLOCK_MASKE
@@ -2572,90 +2530,19 @@ Discarded input sections
                 0x00000000        0xc ./Sources/i2c-example.o
  .rodata._ZN5USBDML12MAP_ALL_PINSE
                 0x00000000        0x1 ./Sources/i2c-example.o
- .text._ZN5USBDM8I2c0Info22getInputClockFrequencyEv
-                0x00000000       0x14 ./Sources/i2c-example.o
- .text._ZN5USBDM8I2c0Info11enableClockEv
-                0x00000000       0x28 ./Sources/i2c-example.o
- .text._ZN5USBDM8I2c0Info8initPCRsEm
-                0x00000000       0x2c ./Sources/i2c-example.o
  .rodata._ZN5USBDML15ADC_DEFAULT_PCRE
                 0x00000000        0x4 ./Sources/i2c-example.o
  .rodata._ZN5USBDML10TIMER_MASKE
                 0x00000000        0x4 ./Sources/i2c-example.o
- .text._ZN5USBDM11FormattedIO9writeCharEc
-                0x00000000       0x24 ./Sources/i2c-example.o
- .text._ZN5USBDM11FormattedIO5writeEc
-                0x00000000       0x20 ./Sources/i2c-example.o
- .text._ZN5USBDM11FormattedIO7writelnEv
-                0x00000000       0x1a ./Sources/i2c-example.o
- .text._ZN5USBDM11FormattedIO5writeEPKc
-                0x00000000       0x2e ./Sources/i2c-example.o
- .text._ZN5USBDM11FormattedIO7writelnEPKc
-                0x00000000       0x22 ./Sources/i2c-example.o
  .rodata._ZN5USBDML15defaultBaudRateE
-                0x00000000        0x4 ./Sources/i2c-example.o
- .text._ZN5USBDM3I2cC2EPV8I2C_TypeNS_7I2cModeE
-                0x00000000       0x5c ./Sources/i2c-example.o
- .text._ZN5USBDM3I2cD2Ev
-                0x00000000       0x20 ./Sources/i2c-example.o
- .text._ZN5USBDM3I2c6setBPSEmm
-                0x00000000       0x24 ./Sources/i2c-example.o
- .text._ZN5USBDM3I2c16startTransactionEi
-                0x00000000       0x16 ./Sources/i2c-example.o
- .text._ZN5USBDM3I2c14endTransactionEv
-                0x00000000       0x14 ./Sources/i2c-example.o
- .rodata._ZL11I2C_ADDRESS
                 0x00000000        0x4 ./Sources/i2c-example.o
  .rodata._ZL9I2C_SPEED
                 0x00000000        0x4 ./Sources/i2c-example.o
- .text._ZN5USBDM9I2cBase_TINS_8I2c0InfoEEC2EjNS_7I2cModeEh
-                0x00000000       0x58 ./Sources/i2c-example.o
- .text._ZN5USBDM9I2cBase_TINS_8I2c0InfoEED2Ev
-                0x00000000       0x24 ./Sources/i2c-example.o
- .text._ZN5USBDM9I2cBase_TINS_8I2c0InfoEED0Ev
-                0x00000000       0x20 ./Sources/i2c-example.o
- .text._ZN5USBDM9I2cBase_TINS_8I2c0InfoEE12busHangResetEv
-                0x00000000       0x6a ./Sources/i2c-example.o
- .text._ZN5USBDM9I2cBase_TINS_8I2c0InfoEE4initEh
-                0x00000000       0x70 ./Sources/i2c-example.o
- .text._ZN5USBDM9I2cBase_TINS_8I2c0InfoEE6setBPSEm
-                0x00000000       0x24 ./Sources/i2c-example.o
- .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE9setOutputEm
-                0x00000000       0x28 ./Sources/i2c-example.o
- .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj1ELNS_8PolarityE1EE8setInputEm
-                0x00000000       0x24 ./Sources/i2c-example.o
- .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE4highEv
-                0x00000000       0x12 ./Sources/i2c-example.o
- .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj1ELNS_8PolarityE1EE4readEv
-                0x00000000        0xe ./Sources/i2c-example.o
- .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE3lowEv
-                0x00000000       0x12 ./Sources/i2c-example.o
- .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE11setInactiveEv
-                0x00000000        0xc ./Sources/i2c-example.o
- .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE6setOutEv
-                0x00000000       0x16 ./Sources/i2c-example.o
- .text._ZN5USBDM5Pcr_TILm1024ELm1074044928EL9IRQn_Type41ELi0ELm256EE6setPCREm
-                0x00000000       0x22 ./Sources/i2c-example.o
- .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj1ELNS_8PolarityE1EE5setInEv
-                0x00000000       0x16 ./Sources/i2c-example.o
- .text._ZN5USBDM5Pcr_TILm1024ELm1074044928EL9IRQn_Type41ELi1ELm256EE6setPCREm
-                0x00000000       0x22 ./Sources/i2c-example.o
- .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE4gpioEv
-                0x00000000       0x14 ./Sources/i2c-example.o
- .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj1ELNS_8PolarityE1EE6isHighEv
-                0x00000000       0x1e ./Sources/i2c-example.o
- .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE3setEv
-                0x00000000       0x12 ./Sources/i2c-example.o
- .text._ZN5USBDM5Pcr_TILm1024ELm1074044928EL9IRQn_Type41ELi0ELm256EE6pcrRegEv
-                0x00000000       0x14 ./Sources/i2c-example.o
- .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj1ELNS_8PolarityE1EE4gpioEv
-                0x00000000       0x14 ./Sources/i2c-example.o
- .text._ZN5USBDM5Pcr_TILm1024ELm1074044928EL9IRQn_Type41ELi1ELm256EE6pcrRegEv
-                0x00000000       0x14 ./Sources/i2c-example.o
- .rodata._ZTVN5USBDM9I2cBase_TINS_8I2c0InfoEEE
-                0x00000000       0x20 ./Sources/i2c-example.o
- .bss._ZN5USBDM9I2cBase_TINS_8I2c0InfoEE7thisPtrE
-                0x00000000        0x4 ./Sources/i2c-example.o
+ .debug_info    0x00000000     0xecdf ./Sources/i2c-example.o
+ .debug_abbrev  0x00000000      0x8a7 ./Sources/i2c-example.o
+ .debug_aranges
+                0x00000000       0x18 ./Sources/i2c-example.o
+ .debug_macro   0x00000000      0x486 ./Sources/i2c-example.o
  .debug_macro   0x00000000      0xbc2 ./Sources/i2c-example.o
  .debug_macro   0x00000000       0x1c ./Sources/i2c-example.o
  .debug_macro   0x00000000       0x22 ./Sources/i2c-example.o
@@ -2721,6 +2608,11 @@ Discarded input sections
  .debug_macro   0x00000000       0x17 ./Sources/i2c-example.o
  .debug_macro   0x00000000       0x10 ./Sources/i2c-example.o
  .debug_macro   0x00000000       0x4c ./Sources/i2c-example.o
+ .debug_line    0x00000000      0xb67 ./Sources/i2c-example.o
+ .debug_str     0x00000000    0x4fc47 ./Sources/i2c-example.o
+ .comment       0x00000000       0x76 ./Sources/i2c-example.o
+ .ARM.attributes
+                0x00000000       0x33 ./Sources/i2c-example.o
  .group         0x00000000        0x8 ./Sources/i2c.o
  .group         0x00000000        0x8 ./Sources/i2c.o
  .group         0x00000000        0x8 ./Sources/i2c.o
@@ -2868,8 +2760,6 @@ Discarded input sections
                 0x00000000       0x16 ./Sources/i2c.o
  .text._ZN5USBDM3I2c14endTransactionEv
                 0x00000000       0x14 ./Sources/i2c.o
- .text._ZN5USBDM3I2c8transmitEhtPKh
-                0x00000000       0x50 ./Sources/i2c.o
  .text._ZN5USBDM3I2c7receiveEhtPh
                 0x00000000       0x56 ./Sources/i2c.o
  .debug_macro   0x00000000      0xbc2 ./Sources/i2c.o
@@ -2937,21 +2827,354 @@ Discarded input sections
  .debug_macro   0x00000000       0x17 ./Sources/i2c.o
  .debug_macro   0x00000000       0x10 ./Sources/i2c.o
  .debug_macro   0x00000000       0x4c ./Sources/i2c.o
+ .group         0x00000000       0x10 ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0x8 ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0x8 ./Sources/mma845x-example.o
+ .group         0x00000000        0x8 ./Sources/mma845x-example.o
+ .group         0x00000000        0x8 ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0x8 ./Sources/mma845x-example.o
+ .group         0x00000000        0x8 ./Sources/mma845x-example.o
+ .group         0x00000000        0x8 ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0x8 ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0x8 ./Sources/mma845x-example.o
+ .group         0x00000000        0x8 ./Sources/mma845x-example.o
+ .group         0x00000000        0x8 ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0x8 ./Sources/mma845x-example.o
+ .group         0x00000000       0x14 ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
+ .group         0x00000000        0xc ./Sources/mma845x-example.o
  .group         0x00000000        0xc ./Sources/mma845x-example.o
  .text          0x00000000        0x0 ./Sources/mma845x-example.o
  .data          0x00000000        0x0 ./Sources/mma845x-example.o
  .bss           0x00000000        0x0 ./Sources/mma845x-example.o
- .debug_info    0x00000000       0x21 ./Sources/mma845x-example.o
- .debug_abbrev  0x00000000       0x13 ./Sources/mma845x-example.o
- .debug_aranges
-                0x00000000       0x18 ./Sources/mma845x-example.o
- .debug_macro   0x00000000       0x11 ./Sources/mma845x-example.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x34 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML2nsE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML2usE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML2msE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML7secondsE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML7percentE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML3MHzE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML3kHzE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML2HzE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML12FIXED_NO_PCRE
+                0x00000000        0x1 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML11INVALID_PCRE
+                0x00000000        0x1 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML12UNMAPPED_PCRE
+                0x00000000        0x1 ./Sources/mma845x-example.o
+ .text._ZN5USBDML16enablePortClocksEm
+                0x00000000       0x34 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML16PORTA_CLOCK_MASKE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML16PORTB_CLOCK_MASKE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML16PORTC_CLOCK_MASKE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML16PORTD_CLOCK_MASKE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML16PORTE_CLOCK_MASKE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML11DEFAULT_PCRE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML16GPIO_DEFAULT_PCRE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML15I2C_DEFAULT_PCRE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML15I2S_DEFAULT_PCRE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML16XTAL_DEFAULT_PCRE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML10NoPortInfoE
+                0x00000000        0xc ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML13PORTA_IRQS_ARE
+                0x00000000        0x1 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML9PortAInfoE
+                0x00000000        0xc ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML13PORTB_IRQS_ARE
+                0x00000000        0x1 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML9PortBInfoE
+                0x00000000        0xc ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML13PORTC_IRQS_ARE
+                0x00000000        0x1 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML9PortCInfoE
+                0x00000000        0xc ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML13PORTD_IRQS_ARE
+                0x00000000        0x1 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML9PortDInfoE
+                0x00000000        0xc ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML13PORTE_IRQS_ARE
+                0x00000000        0x1 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML9PortEInfoE
+                0x00000000        0xc ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML12MAP_ALL_PINSE
+                0x00000000        0x1 ./Sources/mma845x-example.o
+ .text._ZN5USBDM8I2c0Info22getInputClockFrequencyEv
+                0x00000000       0x14 ./Sources/mma845x-example.o
+ .text._ZN5USBDM8I2c0Info11enableClockEv
+                0x00000000       0x28 ./Sources/mma845x-example.o
+ .text._ZN5USBDM8I2c0Info8initPCRsEm
+                0x00000000       0x2c ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML15ADC_DEFAULT_PCRE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML10TIMER_MASKE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .text._ZN5USBDM11FormattedIO9writeCharEc
+                0x00000000       0x24 ./Sources/mma845x-example.o
+ .text._ZN5USBDM11FormattedIO10setPaddingENS_7PaddingE
+                0x00000000       0x1e ./Sources/mma845x-example.o
+ .text._ZN5USBDM11FormattedIO8setWidthEj
+                0x00000000       0x1e ./Sources/mma845x-example.o
+ .text._ZN5USBDM11FormattedIO5ultoaEPcmNS_5RadixENS_7PaddingEib
+                0x00000000      0x170 ./Sources/mma845x-example.o
+ .text._ZN5USBDM11FormattedIO5writeEc
+                0x00000000       0x20 ./Sources/mma845x-example.o
+ .text._ZN5USBDM11FormattedIO7writelnEv
+                0x00000000       0x1a ./Sources/mma845x-example.o
+ .text._ZN5USBDM11FormattedIO5writeEPKc
+                0x00000000       0x2e ./Sources/mma845x-example.o
+ .text._ZN5USBDM11FormattedIO7writelnEPKc
+                0x00000000       0x22 ./Sources/mma845x-example.o
+ .text._ZN5USBDM11FormattedIO5writeEmNS_5RadixE
+                0x00000000       0x42 ./Sources/mma845x-example.o
+ .text._ZN5USBDM11FormattedIO7writelnEmNS_5RadixE
+                0x00000000       0x2a ./Sources/mma845x-example.o
+ .text._ZN5USBDM11FormattedIO7writelnEjNS_5RadixE
+                0x00000000       0x24 ./Sources/mma845x-example.o
+ .rodata._ZN5USBDML15defaultBaudRateE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .text._ZN5USBDM3I2cC2EPV8I2C_TypeNS_7I2cModeE
+                0x00000000       0x5c ./Sources/mma845x-example.o
+ .text._ZN5USBDM3I2cD2Ev
+                0x00000000       0x20 ./Sources/mma845x-example.o
+ .text._ZN5USBDM3I2c6setBPSEmm
+                0x00000000       0x24 ./Sources/mma845x-example.o
+ .text._ZN5USBDM3I2c16startTransactionEi
+                0x00000000       0x16 ./Sources/mma845x-example.o
+ .text._ZN5USBDM3I2c14endTransactionEv
+                0x00000000       0x14 ./Sources/mma845x-example.o
+ .rodata._ZL3MAX
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZL3MIN
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .rodata._ZL9LEVEL_MAX
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .text._ZN5USBDM9I2cBase_TINS_8I2c0InfoEEC2EjNS_7I2cModeEh
+                0x00000000       0x58 ./Sources/mma845x-example.o
+ .text._ZN5USBDM9I2cBase_TINS_8I2c0InfoEE12busHangResetEv
+                0x00000000       0x6a ./Sources/mma845x-example.o
+ .text._ZN5USBDM9I2cBase_TINS_8I2c0InfoEE4initEh
+                0x00000000       0x70 ./Sources/mma845x-example.o
+ .text._ZN5USBDM9I2cBase_TINS_8I2c0InfoEE6setBPSEm
+                0x00000000       0x24 ./Sources/mma845x-example.o
+ .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE9setOutputEm
+                0x00000000       0x28 ./Sources/mma845x-example.o
+ .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj1ELNS_8PolarityE1EE8setInputEm
+                0x00000000       0x24 ./Sources/mma845x-example.o
+ .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE4highEv
+                0x00000000       0x12 ./Sources/mma845x-example.o
+ .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj1ELNS_8PolarityE1EE4readEv
+                0x00000000        0xe ./Sources/mma845x-example.o
+ .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE3lowEv
+                0x00000000       0x12 ./Sources/mma845x-example.o
+ .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE11setInactiveEv
+                0x00000000        0xc ./Sources/mma845x-example.o
+ .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE6setOutEv
+                0x00000000       0x16 ./Sources/mma845x-example.o
+ .text._ZN5USBDM5Pcr_TILm1024ELm1074044928EL9IRQn_Type41ELi0ELm256EE6setPCREm
+                0x00000000       0x22 ./Sources/mma845x-example.o
+ .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj1ELNS_8PolarityE1EE5setInEv
+                0x00000000       0x16 ./Sources/mma845x-example.o
+ .text._ZN5USBDM5Pcr_TILm1024ELm1074044928EL9IRQn_Type41ELi1ELm256EE6setPCREm
+                0x00000000       0x22 ./Sources/mma845x-example.o
+ .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE4gpioEv
+                0x00000000       0x14 ./Sources/mma845x-example.o
+ .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj1ELNS_8PolarityE1EE6isHighEv
+                0x00000000       0x1e ./Sources/mma845x-example.o
+ .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj0ELNS_8PolarityE0EE3setEv
+                0x00000000       0x12 ./Sources/mma845x-example.o
+ .text._ZN5USBDM5Pcr_TILm1024ELm1074044928EL9IRQn_Type41ELi0ELm256EE6pcrRegEv
+                0x00000000       0x14 ./Sources/mma845x-example.o
+ .text._ZN5USBDM10GpioBase_TILm1024ELm1074044928EL9IRQn_Type41ELm1074786368ELj1ELNS_8PolarityE1EE4gpioEv
+                0x00000000       0x14 ./Sources/mma845x-example.o
+ .text._ZN5USBDM5Pcr_TILm1024ELm1074044928EL9IRQn_Type41ELi1ELm256EE6pcrRegEv
+                0x00000000       0x14 ./Sources/mma845x-example.o
+ .rodata._ZTVN5USBDM9I2cBase_TINS_8I2c0InfoEEE
+                0x00000000       0x20 ./Sources/mma845x-example.o
+ .bss._ZN5USBDM9I2cBase_TINS_8I2c0InfoEE7thisPtrE
+                0x00000000        0x4 ./Sources/mma845x-example.o
+ .text._ZN5USBDM9I2cBase_TINS_8I2c0InfoEED2Ev
+                0x00000000       0x24 ./Sources/mma845x-example.o
+ .text._ZN5USBDM9I2cBase_TINS_8I2c0InfoEED0Ev
+                0x00000000       0x20 ./Sources/mma845x-example.o
  .debug_macro   0x00000000      0xbc2 ./Sources/mma845x-example.o
- .debug_line    0x00000000       0x3f ./Sources/mma845x-example.o
- .debug_str     0x00000000     0x3377 ./Sources/mma845x-example.o
- .comment       0x00000000       0x76 ./Sources/mma845x-example.o
- .ARM.attributes
-                0x00000000       0x33 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000      0x16e ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x10 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000      0x3fb ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x18 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x22 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x58 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x18 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x94 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x35 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x34 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000      0x17b ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x57 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x58 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x1f ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x43 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x20 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000      0x18e ./Sources/mma845x-example.o
+ .debug_macro   0x00000000      0x35c ./Sources/mma845x-example.o
+ .debug_macro   0x00000000      0x1da ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x10 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x16 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x35 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x16 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x29 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x10 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000      0x3ce ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x16 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x1c ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x6e ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x28 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x86 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x18 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x2e ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x1f ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x76 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x19 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000      0x120 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x11 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x11 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x17 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x17 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x17 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x17 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x17 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x1c ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0xef ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x6a ./Sources/mma845x-example.o
+ .debug_macro   0x00000000      0x1df ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x34 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x3b ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x50 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000      0xbc6 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000     0x83ec ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x26 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x10 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000      0x15b ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x7c ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x17 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0xee ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x1c ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x28 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x16 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x10 ./Sources/mma845x-example.o
+ .debug_macro   0x00000000       0x4c ./Sources/mma845x-example.o
  .group         0x00000000        0x8 ./Sources/mma845x.o
  .group         0x00000000        0xc ./Sources/mma845x.o
  .group         0x00000000        0xc ./Sources/mma845x.o
@@ -3021,8 +3244,6 @@ Discarded input sections
  .text          0x00000000        0x0 ./Sources/mma845x.o
  .data          0x00000000        0x0 ./Sources/mma845x.o
  .bss           0x00000000        0x0 ./Sources/mma845x.o
- .text._ZN5USBDML12setErrorCodeENS_9ErrorCodeE
-                0x00000000       0x20 ./Sources/mma845x.o
  .rodata._ZN5USBDML2nsE
                 0x00000000        0x4 ./Sources/mma845x.o
  .rodata._ZN5USBDML2usE
@@ -3097,38 +3318,10 @@ Discarded input sections
                 0x00000000        0x4 ./Sources/mma845x.o
  .text._ZN5USBDM7MMA845x8cr1ValueENS0_13AccelDataRateENS0_18AccelSleepDataRateEbbb
                 0x00000000       0x64 ./Sources/mma845x.o
- .text._ZN5USBDM7MMA845xC2ERNS_3I2cENS0_17AccelerometerModeEh
-                0x00000000       0x58 ./Sources/mma845x.o
- .text._ZN5USBDM7MMA845x7readRegEh
-                0x00000000       0x30 ./Sources/mma845x.o
- .text._ZN5USBDM7MMA845x8writeRegEhh
-                0x00000000       0x30 ./Sources/mma845x.o
- .text._ZN5USBDM7MMA845x5resetEv
-                0x00000000       0x22 ./Sources/mma845x.o
  .text._ZN5USBDM7MMA845x7standbyEv
                 0x00000000       0x2a ./Sources/mma845x.o
  .text._ZN5USBDM7MMA845x6activeEv
                 0x00000000       0x2a ./Sources/mma845x.o
- .text._ZN5USBDM7MMA845x20readAccelerometerXYZERiRsS2_S2_
-                0x00000000       0x98 ./Sources/mma845x.o
- .text._ZN5USBDM7MMA845x9configureENS0_17AccelerometerModeEh
-                0x00000000       0x3a ./Sources/mma845x.o
- .text._ZN5USBDM7MMA845x6readIDEv
-                0x00000000       0x2a ./Sources/mma845x.o
- .rodata._ZZN5USBDM7MMA845x22calibrateAccelerometerEvE12clearOffsets
-                0x00000000        0x4 ./Sources/mma845x.o
- .rodata._ZZN5USBDM7MMA845x22calibrateAccelerometerEvE14calibration2Gs
-                0x00000000        0xc ./Sources/mma845x.o
- .rodata._ZZN5USBDM7MMA845x22calibrateAccelerometerEvE18calibrationFactors
-                0x00000000        0xc ./Sources/mma845x.o
- .text._ZN5USBDM7MMA845x22calibrateAccelerometerEv
-                0x00000000      0x194 ./Sources/mma845x.o
- .debug_info    0x00000000     0xf572 ./Sources/mma845x.o
- .debug_abbrev  0x00000000      0xa2f ./Sources/mma845x.o
- .debug_aranges
-                0x00000000       0x78 ./Sources/mma845x.o
- .debug_ranges  0x00000000       0x68 ./Sources/mma845x.o
- .debug_macro   0x00000000      0x574 ./Sources/mma845x.o
  .debug_macro   0x00000000      0xbc2 ./Sources/mma845x.o
  .debug_macro   0x00000000       0x1c ./Sources/mma845x.o
  .debug_macro   0x00000000       0x22 ./Sources/mma845x.o
@@ -3194,12 +3387,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x17 ./Sources/mma845x.o
  .debug_macro   0x00000000       0x10 ./Sources/mma845x.o
  .debug_macro   0x00000000       0x4c ./Sources/mma845x.o
- .debug_line    0x00000000      0xe24 ./Sources/mma845x.o
- .debug_str     0x00000000    0x50b5b ./Sources/mma845x.o
- .comment       0x00000000       0x76 ./Sources/mma845x.o
- .debug_frame   0x00000000      0x1d0 ./Sources/mma845x.o
- .ARM.attributes
-                0x00000000       0x2e ./Sources/mma845x.o
  .group         0x00000000        0xc ./Sources/spi.o
  .group         0x00000000        0xc ./Sources/spi.o
  .group         0x00000000        0xc ./Sources/spi.o
@@ -3592,15 +3779,8 @@ Discarded input sections
                 0x00000000       0x22 ./Sources/usbdmError.o
  .rodata._ZN5USBDML15defaultBaudRateE
                 0x00000000        0x4 ./Sources/usbdmError.o
- .rodata        0x00000000      0x182 ./Sources/usbdmError.o
- .data._ZN5USBDML8messagesE
-                0x00000000       0x40 ./Sources/usbdmError.o
- .text._ZN5USBDM15getErrorMessageENS_9ErrorCodeE
-                0x00000000       0x2c ./Sources/usbdmError.o
  .text._ZN5USBDM5abortEPKc
                 0x00000000       0x18 ./Sources/usbdmError.o
- .text._ZN5USBDM10checkErrorEv
-                0x00000000       0x50 ./Sources/usbdmError.o
  .text._ZN5USBDM19enableNvicInterruptE9IRQn_Typem
                 0x00000000       0x34 ./Sources/usbdmError.o
  .debug_macro   0x00000000      0xbc2 ./Sources/usbdmError.o
@@ -3891,7 +4071,7 @@ LOAD c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedde
                 0x00000001                ASSERT ((. == (__flash_start + 0x410)), No Freescale security information)
                 0x00000000                M_VECTOR_RAM_SIZE = DEFINED (__ram_vector_table__)?(__VECTOR_TABLE_END - __VECTOR_TABLE):0x0
 
-.text           0x00000410     0x271c
+.text           0x00000410     0x3168
  *(.text)
  .text          0x00000410       0x40 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
  .text          0x00000450       0x74 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
@@ -4306,183 +4486,260 @@ LOAD c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedde
                 0x00002144       0x10 ./Sources/PortExpander.o
  .text._ZN5USBDML9waitTicksEx
                 0x00002154       0x74 ./Sources/delay.o
- .text._ZN5USBDM6waitMSEm
+ .text._ZN5USBDM6waitUSEm
                 0x000021c8       0x50 ./Sources/delay.o
-                0x000021c8                USBDM::waitMS(unsigned long)
- .text.main     0x00002218       0x5c ./Sources/i2c-example.o
-                0x00002218                main
+                0x000021c8                USBDM::waitUS(unsigned long)
+ .text._ZN5USBDM6waitMSEm
+                0x00002218       0x50 ./Sources/delay.o
+                0x00002218                USBDM::waitMS(unsigned long)
  .text._ZN5USBDM3I2c13waitWhileBusyEv
-                0x00002274       0x44 ./Sources/i2c.o
-                0x00002274                USBDM::I2c::waitWhileBusy()
+                0x00002268       0x44 ./Sources/i2c.o
+                0x00002268                USBDM::I2c::waitWhileBusy()
  .text._ZN5USBDM3I2c11getBPSValueEmm
-                0x000022b8       0xb4 ./Sources/i2c.o
-                0x000022b8                USBDM::I2c::getBPSValue(unsigned long, unsigned long)
+                0x000022ac       0xb4 ./Sources/i2c.o
+                0x000022ac                USBDM::I2c::getBPSValue(unsigned long, unsigned long)
  .text._ZN5USBDM3I2c11sendAddressEh
-                0x0000236c       0x62 ./Sources/i2c.o
-                0x0000236c                USBDM::I2c::sendAddress(unsigned char)
+                0x00002360       0x62 ./Sources/i2c.o
+                0x00002360                USBDM::I2c::sendAddress(unsigned char)
  .text._ZN5USBDM3I2c4pollEv
-                0x000023ce      0x228 ./Sources/i2c.o
-                0x000023ce                USBDM::I2c::poll()
+                0x000023c2      0x228 ./Sources/i2c.o
+                0x000023c2                USBDM::I2c::poll()
+ .text._ZN5USBDM3I2c8transmitEhtPKh
+                0x000025ea       0x50 ./Sources/i2c.o
+                0x000025ea                USBDM::I2c::transmit(unsigned char, unsigned short, unsigned char const*)
  .text._ZN5USBDM3I2c4txRxEhtPKhtPh
-                0x000025f6       0x56 ./Sources/i2c.o
-                0x000025f6                USBDM::I2c::txRx(unsigned char, unsigned short, unsigned char const*, unsigned short, unsigned char*)
+                0x0000263a       0x56 ./Sources/i2c.o
+                0x0000263a                USBDM::I2c::txRx(unsigned char, unsigned short, unsigned char const*, unsigned short, unsigned char*)
  .text._ZN5USBDM3I2c4txRxEhttPh
-                0x0000264c       0x38 ./Sources/i2c.o
-                0x0000264c                USBDM::I2c::txRx(unsigned char, unsigned short, unsigned short, unsigned char*)
+                0x00002690       0x38 ./Sources/i2c.o
+                0x00002690                USBDM::I2c::txRx(unsigned char, unsigned short, unsigned short, unsigned char*)
+ .text._ZN5USBDM11FormattedIO5writeElNS_5RadixE
+                0x000026c8       0x5a ./Sources/mma845x-example.o
+                0x000026c8                USBDM::FormattedIO::write(long, USBDM::Radix)
+ .text._ZN5USBDM11FormattedIO7writelnElNS_5RadixE
+                0x00002722       0x2a ./Sources/mma845x-example.o
+                0x00002722                USBDM::FormattedIO::writeln(long, USBDM::Radix)
+ .text._ZN5USBDM11FormattedIO5writeEiNS_5RadixE
+                0x0000274c       0x24 ./Sources/mma845x-example.o
+                0x0000274c                USBDM::FormattedIO::write(int, USBDM::Radix)
+ .text._ZN5USBDM11FormattedIO7writelnEiNS_5RadixE
+                0x00002770       0x24 ./Sources/mma845x-example.o
+                0x00002770                USBDM::FormattedIO::writeln(int, USBDM::Radix)
+ .text._ZN5USBDM7MMA845x8cr1ValueENS0_13AccelDataRateENS0_18AccelSleepDataRateEbbb
+                0x00002794       0x64 ./Sources/mma845x-example.o
+                0x00002794                USBDM::MMA845x::cr1Value(USBDM::MMA845x::AccelDataRate, USBDM::MMA845x::AccelSleepDataRate, bool, bool, bool)
+ .text._Z18calculateTheDegrees
+                0x000027f8       0x38 ./Sources/mma845x-example.o
+                0x000027f8                calculateTheDegree(short)
+ .text._Z20printTheCurrentLevelj
+                0x00002830       0x2c ./Sources/mma845x-example.o
+                0x00002830                printTheCurrentLevel(unsigned int)
+ .text._Z6reportRN5USBDM7MMA845xE
+                0x0000285c       0xcc ./Sources/mma845x-example.o
+                0x0000285c                report(USBDM::MMA845x&)
+ .text.main     0x00002928       0xac ./Sources/mma845x-example.o
+                0x00002928                main
+ .text._Z41__static_initialization_and_destruction_0ii
+                0x000029d4       0x68 ./Sources/mma845x-example.o
+ .text._GLOBAL__sub_I_i2c0
+                0x00002a3c       0x10 ./Sources/mma845x-example.o
+ .text._ZN5USBDML12setErrorCodeENS_9ErrorCodeE
+                0x00002a4c       0x20 ./Sources/mma845x.o
+ .text._ZN5USBDM7MMA845xC2ERNS_3I2cENS0_17AccelerometerModeEh
+                0x00002a6c       0x58 ./Sources/mma845x.o
+                0x00002a6c                USBDM::MMA845x::MMA845x(USBDM::I2c&, USBDM::MMA845x::AccelerometerMode, unsigned char)
+                0x00002a6c                USBDM::MMA845x::MMA845x(USBDM::I2c&, USBDM::MMA845x::AccelerometerMode, unsigned char)
+ .text._ZN5USBDM7MMA845x7readRegEh
+                0x00002ac4       0x30 ./Sources/mma845x.o
+                0x00002ac4                USBDM::MMA845x::readReg(unsigned char)
+ .text._ZN5USBDM7MMA845x8writeRegEhh
+                0x00002af4       0x30 ./Sources/mma845x.o
+                0x00002af4                USBDM::MMA845x::writeReg(unsigned char, unsigned char)
+ .text._ZN5USBDM7MMA845x5resetEv
+                0x00002b24       0x22 ./Sources/mma845x.o
+                0x00002b24                USBDM::MMA845x::reset()
+ .text._ZN5USBDM7MMA845x20readAccelerometerXYZERiRsS2_S2_
+                0x00002b46       0x98 ./Sources/mma845x.o
+                0x00002b46                USBDM::MMA845x::readAccelerometerXYZ(int&, short&, short&, short&)
+ .text._ZN5USBDM7MMA845x9configureENS0_17AccelerometerModeEh
+                0x00002bde       0x3a ./Sources/mma845x.o
+                0x00002bde                USBDM::MMA845x::configure(USBDM::MMA845x::AccelerometerMode, unsigned char)
+ .text._ZN5USBDM7MMA845x6readIDEv
+                0x00002c18       0x2a ./Sources/mma845x.o
+                0x00002c18                USBDM::MMA845x::readID()
+ *fill*         0x00002c42        0x2 
+ .text._ZN5USBDM7MMA845x22calibrateAccelerometerEv
+                0x00002c44      0x194 ./Sources/mma845x.o
+                0x00002c44                USBDM::MMA845x::calibrateAccelerometer()
+ .text._ZN5USBDM15getErrorMessageENS_9ErrorCodeE
+                0x00002dd8       0x2c ./Sources/usbdmError.o
+                0x00002dd8                USBDM::getErrorMessage(USBDM::ErrorCode)
+ .text._ZN5USBDM10checkErrorEv
+                0x00002e04       0x50 ./Sources/usbdmError.o
+                0x00002e04                USBDM::checkError()
  .text.cpp_initialise
-                0x00002684        0xc ./Sources/usbdmError.o
-                0x00002684                cpp_initialise
+                0x00002e54        0xc ./Sources/usbdmError.o
+                0x00002e54                cpp_initialise
  .text.__aeabi_atexit
-                0x00002690        0xa c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(atexit_arm.o)
-                0x00002690                __aeabi_atexit
- .text._ZdlPvj  0x0000269a        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(del_ops.o)
-                0x0000269a                operator delete(void*, unsigned int)
- .text._ZdlPv   0x0000269e        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(del_op.o)
-                0x0000269e                operator delete(void*)
- *fill*         0x000026a2        0x2 
+                0x00002e60        0xa c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(atexit_arm.o)
+                0x00002e60                __aeabi_atexit
+ .text._ZdlPvj  0x00002e6a        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(del_ops.o)
+                0x00002e6a                operator delete(void*, unsigned int)
+ .text._ZdlPv   0x00002e6e        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(del_op.o)
+                0x00002e6e                operator delete(void*)
+ *fill*         0x00002e72        0x2 
  .text.__cxa_atexit
-                0x000026a4       0x1c c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-cxa_atexit.o)
-                0x000026a4                __cxa_atexit
- .text.exit     0x000026c0       0x28 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-exit.o)
-                0x000026c0                exit
+                0x00002e74       0x1c c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-cxa_atexit.o)
+                0x00002e74                __cxa_atexit
+ .text.exit     0x00002e90       0x28 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-exit.o)
+                0x00002e90                exit
  .text.__libc_init_array
-                0x000026e8       0x48 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-init.o)
-                0x000026e8                __libc_init_array
- .text.free     0x00002730       0x10 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-malloc.o)
-                0x00002730                free
- .text.memset   0x00002740       0x10 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-memset.o)
-                0x00002740                memset
- .text._free_r  0x00002750       0x9c c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-nano-freer.o)
-                0x00002750                _free_r
+                0x00002eb8       0x48 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-init.o)
+                0x00002eb8                __libc_init_array
+ .text.free     0x00002f00       0x10 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-malloc.o)
+                0x00002f00                free
+ .text.memset   0x00002f10       0x10 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-memset.o)
+                0x00002f10                memset
+ .text._free_r  0x00002f20       0x9c c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-nano-freer.o)
+                0x00002f20                _free_r
  .text.__malloc_lock
-                0x000027ec        0xc c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-mlock.o)
-                0x000027ec                __malloc_lock
+                0x00002fbc        0xc c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-mlock.o)
+                0x00002fbc                __malloc_lock
  .text.__malloc_unlock
-                0x000027f8        0xc c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-mlock.o)
-                0x000027f8                __malloc_unlock
+                0x00002fc8        0xc c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-mlock.o)
+                0x00002fc8                __malloc_unlock
  .text.__retarget_lock_acquire_recursive
-                0x00002804        0x2 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-lock.o)
-                0x00002804                __retarget_lock_acquire_recursive
+                0x00002fd4        0x2 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-lock.o)
+                0x00002fd4                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x00002806        0x2 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-lock.o)
-                0x00002806                __retarget_lock_release_recursive
+                0x00002fd6        0x2 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-lock.o)
+                0x00002fd6                __retarget_lock_release_recursive
  *(.rodata)
- .rodata        0x00002808      0x102 ./Startup_Code/vectors.o
- *fill*         0x0000290a        0x2 
- .rodata        0x0000290c        0xa ./Sources/i2c-example.o
+ .rodata        0x00002fd8      0x102 ./Startup_Code/vectors.o
+ *fill*         0x000030da        0x2 
+ .rodata        0x000030dc       0xe3 ./Sources/mma845x-example.o
+ *fill*         0x000031bf        0x1 
+ .rodata        0x000031c0      0x182 ./Sources/usbdmError.o
  *(.rodata*)
- *fill*         0x00002916        0x2 
+ *fill*         0x00003342        0x2 
  .rodata._ZTVN5USBDM11Uart_brfa_TINS_9Uart0InfoEEE
-                0x00002918       0x2c ./Startup_Code/console.o
-                0x00002918                vtable for USBDM::Uart_brfa_T<USBDM::Uart0Info>
+                0x00003344       0x2c ./Startup_Code/console.o
+                0x00003344                vtable for USBDM::Uart_brfa_T<USBDM::Uart0Info>
  .rodata._ZTVN5USBDM6Uart_TINS_9Uart0InfoEEE
-                0x00002944       0x2c ./Startup_Code/console.o
-                0x00002944                vtable for USBDM::Uart_T<USBDM::Uart0Info>
+                0x00003370       0x2c ./Startup_Code/console.o
+                0x00003370                vtable for USBDM::Uart_T<USBDM::Uart0Info>
  .rodata._ZTVN5USBDM4UartE
-                0x00002970       0x2c ./Startup_Code/console.o
-                0x00002970                vtable for USBDM::Uart
+                0x0000339c       0x2c ./Startup_Code/console.o
+                0x0000339c                vtable for USBDM::Uart
  .rodata._ZTVN5USBDM11FormattedIOE
-                0x0000299c       0x24 ./Startup_Code/console.o
-                0x0000299c                vtable for USBDM::FormattedIO
+                0x000033c8       0x24 ./Startup_Code/console.o
+                0x000033c8                vtable for USBDM::FormattedIO
  .rodata._ZN5USBDM3Mcg9clockInfoE
-                0x000029c0       0x3c ./Startup_Code/mcg.o
-                0x000029c0                USBDM::Mcg::clockInfo
+                0x000033ec       0x3c ./Startup_Code/mcg.o
+                0x000033ec                USBDM::Mcg::clockInfo
  .rodata._ZN5USBDML20clockTransitionTableE
-                0x000029fc       0x40 ./Startup_Code/mcg.o
+                0x00003428       0x40 ./Startup_Code/mcg.o
  .rodata._ZTVN5USBDM9I2cBase_TINS_8I2c0InfoEEE
-                0x00002a3c       0x20 ./Sources/PortExpander.o
-                0x00002a3c                vtable for USBDM::I2cBase_T<USBDM::I2c0Info>
+                0x00003468       0x20 ./Sources/PortExpander.o
+                0x00003468                vtable for USBDM::I2cBase_T<USBDM::I2c0Info>
  .rodata._ZN5USBDM3I2c12I2C_DIVISORSE
-                0x00002a5c       0x80 ./Sources/i2c.o
-                0x00002a5c                USBDM::I2c::I2C_DIVISORS
+                0x00003488       0x80 ./Sources/i2c.o
+                0x00003488                USBDM::I2c::I2C_DIVISORS
  .rodata._ZTVN5USBDM3I2cE
-                0x00002adc       0x18 ./Sources/i2c.o
-                0x00002adc                vtable for USBDM::I2c
+                0x00003508       0x18 ./Sources/i2c.o
+                0x00003508                vtable for USBDM::I2c
+ .rodata._ZZN5USBDM7MMA845x22calibrateAccelerometerEvE12clearOffsets
+                0x00003520        0x4 ./Sources/mma845x.o
+ .rodata._ZZN5USBDM7MMA845x22calibrateAccelerometerEvE14calibration2Gs
+                0x00003524        0xc ./Sources/mma845x.o
+ .rodata._ZZN5USBDM7MMA845x22calibrateAccelerometerEvE18calibrationFactors
+                0x00003530        0xc ./Sources/mma845x.o
  .rodata._global_impure_ptr
-                0x00002af4        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-impure.o)
-                0x00002af4                _global_impure_ptr
+                0x0000353c        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-impure.o)
+                0x0000353c                _global_impure_ptr
  *(.init)
- .init          0x00002af8        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crti.o
-                0x00002af8                _init
- .init          0x00002afc        0x8 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x00003540        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crti.o
+                0x00003540                _init
+ .init          0x00003544        0x8 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x00002b04        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crti.o
-                0x00002b04                _fini
- .fini          0x00002b08        0x8 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtn.o
-                0x00002b10                __CTOR_LIST__ = .
+ .fini          0x0000354c        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crti.o
+                0x0000354c                _fini
+ .fini          0x00003550        0x8 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtn.o
+                0x00003558                __CTOR_LIST__ = .
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-                0x00002b10                __CTOR_END__ = .
-                0x00002b10                __DTOR_LIST__ = .
+                0x00003558                __CTOR_END__ = .
+                0x00003558                __DTOR_LIST__ = .
  *crtbegin.o(.dtors)
  *crtbegin?.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x00002b10                __DTOR_END__ = .
-                0x00002b10                . = ALIGN (0x4)
-                0x00002b10                PROVIDE (__preinit_array_start = .)
+                0x00003558                __DTOR_END__ = .
+                0x00003558                . = ALIGN (0x4)
+                0x00003558                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x00002b10                PROVIDE (__preinit_array_end = .)
-                0x00002b10                . = ALIGN (0x4)
-                0x00002b10                PROVIDE (__init_array_start = .)
+                0x00003558                PROVIDE (__preinit_array_end = .)
+                0x00003558                . = ALIGN (0x4)
+                0x00003558                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x00002b10        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
- .init_array    0x00002b14        0x4 ./Startup_Code/console.o
- .init_array    0x00002b18        0x4 ./Startup_Code/system.o
- .init_array    0x00002b1c        0x4 ./Sources/PortExpander.o
- .init_array    0x00002b20        0x4 ./Sources/usbdmError.o
-                0x00002b24                PROVIDE (__init_array_end = .)
-                0x00002b24                . = ALIGN (0x4)
+ .init_array    0x00003558        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .init_array    0x0000355c        0x4 ./Startup_Code/console.o
+ .init_array    0x00003560        0x4 ./Startup_Code/system.o
+ .init_array    0x00003564        0x4 ./Sources/PortExpander.o
+ .init_array    0x00003568        0x4 ./Sources/mma845x-example.o
+ .init_array    0x0000356c        0x4 ./Sources/usbdmError.o
+                0x00003570                PROVIDE (__init_array_end = .)
+                0x00003570                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00002b24        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .fini_array    0x00003570        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
                 [!provide]                PROVIDE (__fini_array_end = .)
  *(.jcr*)
  *(.rodata*)
  *(.eh_frame*)
- .eh_frame      0x00002b28        0x0 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
- .eh_frame      0x00002b28        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtend.o
+ .eh_frame      0x00003574        0x0 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x00003574        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtend.o
 
-.glue_7         0x00002b2c        0x0
- .glue_7        0x00002b2c        0x0 linker stubs
+.glue_7         0x00003578        0x0
+ .glue_7        0x00003578        0x0 linker stubs
 
-.glue_7t        0x00002b2c        0x0
- .glue_7t       0x00002b2c        0x0 linker stubs
+.glue_7t        0x00003578        0x0
+ .glue_7t       0x00003578        0x0 linker stubs
 
-.vfp11_veneer   0x00002b2c        0x0
- .vfp11_veneer  0x00002b2c        0x0 linker stubs
+.vfp11_veneer   0x00003578        0x0
+ .vfp11_veneer  0x00003578        0x0 linker stubs
 
-.v4_bx          0x00002b2c        0x0
- .v4_bx         0x00002b2c        0x0 linker stubs
+.v4_bx          0x00003578        0x0
+ .v4_bx         0x00003578        0x0 linker stubs
 
-.iplt           0x00002b2c        0x0
- .iplt          0x00002b2c        0x0 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x00003578        0x0
+ .iplt          0x00003578        0x0 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00002b2c                __exidx_start = .
+                0x00003578                __exidx_start = .
 
-.ARM.exidx      0x00002b2c        0x8
+.ARM.exidx      0x00003578        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x00002b2c        0x8 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
- .ARM.exidx     0x00002b34        0x0 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x00003578        0x8 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .ARM.exidx     0x00003580        0x0 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x00002b34                __exidx_end = .
+                0x00003580                __exidx_end = .
 
-.rel.dyn        0x00002b34        0x0
- .rel.iplt      0x00002b34        0x0 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x00003580        0x0
+ .rel.iplt      0x00003580        0x0 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.flash          0x00002b34        0x0
-                0x00002b34                . = ALIGN (0x4)
+.flash          0x00003580        0x0
+                0x00003580                . = ALIGN (0x4)
  *(.flash)
-                0x00002b34                __etext = .
-                0x00002b34                __DATA_ROM = .
+                0x00003580                __etext = .
+                0x00003580                __DATA_ROM = .
 
 .mtb            0x1fffe000        0x0
                 0x1fffe000                . = ALIGN (0x8)
@@ -4506,7 +4763,7 @@ LOAD c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedde
 .bdts
  *(.bss*endPointBdts*)
 
-.data           0x1fffe000       0x70 load address 0x00002b34
+.data           0x1fffe000       0xb0 load address 0x00003580
                 0x1fffe000                __data_start__ = .
                 0x1fffe000                __DATA_RAM = .
  *(vtable)
@@ -4519,87 +4776,94 @@ LOAD c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedde
  .data.SystemBusClock
                 0x1fffe008        0x4 ./Startup_Code/system.o
                 0x1fffe008                SystemBusClock
+ .data._ZN5USBDML8messagesE
+                0x1fffe00c       0x40 ./Sources/usbdmError.o
  .data._impure_ptr
-                0x1fffe00c        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-impure.o)
-                0x1fffe00c                _impure_ptr
+                0x1fffe04c        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-impure.o)
+                0x1fffe04c                _impure_ptr
  .data.impure_data
-                0x1fffe010       0x60 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-impure.o)
-                0x1fffe070                . = ALIGN (0x4)
-                0x1fffe070                __data_end__ = .
-                0x00002ba4                __DATA_END = (__DATA_ROM + SIZEOF (.data))
+                0x1fffe050       0x60 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-impure.o)
+                0x1fffe0b0                . = ALIGN (0x4)
+                0x1fffe0b0                __data_end__ = .
+                0x00003630                __DATA_END = (__DATA_ROM + SIZEOF (.data))
 
-.igot.plt       0x1fffe070        0x0 load address 0x00002ba4
- .igot.plt      0x1fffe070        0x0 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
+.igot.plt       0x1fffe0b0        0x0 load address 0x00003630
+ .igot.plt      0x1fffe0b0        0x0 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.noinit         0x1fffe070        0x0
-                0x1fffe070                . = ALIGN (0x4)
+.noinit         0x1fffe0b0        0x0
+                0x1fffe0b0                . = ALIGN (0x4)
  *(.noinit)
 
-.bss            0x1fffe070       0x88 load address 0x00002ba4
-                0x1fffe070                . = ALIGN (0x4)
-                0x1fffe070                __START_BSS = .
-                0x1fffe070                __bss_start__ = .
+.bss            0x1fffe0b0       0xb0 load address 0x00003630
+                0x1fffe0b0                . = ALIGN (0x4)
+                0x1fffe0b0                __START_BSS = .
+                0x1fffe0b0                __bss_start__ = .
  *(.bss)
- .bss           0x1fffe070       0x1c c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .bss           0x1fffe0b0       0x1c c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtbegin.o
  *(.bss*)
  .bss._ZN5USBDM7consoleE
-                0x1fffe08c       0x18 ./Startup_Code/console.o
-                0x1fffe08c                USBDM::console
+                0x1fffe0cc       0x18 ./Startup_Code/console.o
+                0x1fffe0cc                USBDM::console
  .bss._ZN5USBDM16SystemMcgffClockE
-                0x1fffe0a4        0x4 ./Startup_Code/mcg.o
-                0x1fffe0a4                USBDM::SystemMcgffClock
+                0x1fffe0e4        0x4 ./Startup_Code/mcg.o
+                0x1fffe0e4                USBDM::SystemMcgffClock
  .bss._ZN5USBDM17SystemMcgOutClockE
-                0x1fffe0a8        0x4 ./Startup_Code/mcg.o
-                0x1fffe0a8                USBDM::SystemMcgOutClock
+                0x1fffe0e8        0x4 ./Startup_Code/mcg.o
+                0x1fffe0e8                USBDM::SystemMcgOutClock
  .bss._ZN5USBDM17SystemMcgFllClockE
-                0x1fffe0ac        0x4 ./Startup_Code/mcg.o
-                0x1fffe0ac                USBDM::SystemMcgFllClock
+                0x1fffe0ec        0x4 ./Startup_Code/mcg.o
+                0x1fffe0ec                USBDM::SystemMcgFllClock
  .bss._ZN5USBDM17SystemMcgPllClockE
-                0x1fffe0b0        0x4 ./Startup_Code/mcg.o
-                0x1fffe0b0                USBDM::SystemMcgPllClock
+                0x1fffe0f0        0x4 ./Startup_Code/mcg.o
+                0x1fffe0f0                USBDM::SystemMcgPllClock
  .bss._ZN5USBDM14SystemLpoClockE
-                0x1fffe0b4        0x4 ./Startup_Code/mcg.o
-                0x1fffe0b4                USBDM::SystemLpoClock
+                0x1fffe0f4        0x4 ./Startup_Code/mcg.o
+                0x1fffe0f4                USBDM::SystemLpoClock
  .bss._ZN5USBDM3Mcg16currentClockModeE
-                0x1fffe0b8        0x1 ./Startup_Code/mcg.o
-                0x1fffe0b8                USBDM::Mcg::currentClockMode
- *fill*         0x1fffe0b9        0x3 
- .bss.i2c       0x1fffe0bc       0x24 ./Sources/PortExpander.o
-                0x1fffe0bc                i2c
+                0x1fffe0f8        0x1 ./Startup_Code/mcg.o
+                0x1fffe0f8                USBDM::Mcg::currentClockMode
+ *fill*         0x1fffe0f9        0x3 
+ .bss.i2c       0x1fffe0fc       0x24 ./Sources/PortExpander.o
+                0x1fffe0fc                i2c
  .bss._ZN5USBDM9I2cBase_TINS_8I2c0InfoEE7thisPtrE
-                0x1fffe0e0        0x4 ./Sources/PortExpander.o
-                0x1fffe0e0                USBDM::I2cBase_T<USBDM::I2c0Info>::thisPtr
+                0x1fffe120        0x4 ./Sources/PortExpander.o
+                0x1fffe120                USBDM::I2cBase_T<USBDM::I2c0Info>::thisPtr
+ .bss.i2c0      0x1fffe124       0x24 ./Sources/mma845x-example.o
+                0x1fffe124                i2c0
+ .bss.accelerometer
+                0x1fffe148        0x4 ./Sources/mma845x-example.o
+                0x1fffe148                accelerometer
  .bss._ZN5USBDM9errorCodeE
-                0x1fffe0e4        0x4 ./Sources/usbdmError.o
-                0x1fffe0e4                USBDM::errorCode
+                0x1fffe14c        0x4 ./Sources/usbdmError.o
+                0x1fffe14c                USBDM::errorCode
  .bss.__malloc_free_list
-                0x1fffe0e8        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-nano-mallocr.o)
-                0x1fffe0e8                __malloc_free_list
+                0x1fffe150        0x4 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-nano-mallocr.o)
+                0x1fffe150                __malloc_free_list
  *(COMMON)
- COMMON         0x1fffe0ec        0x9 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-lock.o)
-                0x1fffe0ec                __lock___atexit_recursive_mutex
-                0x1fffe0ed                __lock___arc4random_mutex
-                0x1fffe0ee                __lock___env_recursive_mutex
-                0x1fffe0ef                __lock___sinit_recursive_mutex
-                0x1fffe0f0                __lock___malloc_recursive_mutex
-                0x1fffe0f1                __lock___at_quick_exit_mutex
-                0x1fffe0f2                __lock___dd_hash_mutex
-                0x1fffe0f3                __lock___tz_mutex
-                0x1fffe0f4                __lock___sfp_recursive_mutex
-                0x1fffe0f8                . = ALIGN (0x4)
- *fill*         0x1fffe0f5        0x3 
-                0x1fffe0f8                __bss_end__ = .
-                0x1fffe0f8                __END_BSS = .
+ COMMON         0x1fffe154        0x9 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-lock.o)
+                0x1fffe154                __lock___atexit_recursive_mutex
+                0x1fffe155                __lock___arc4random_mutex
+                0x1fffe156                __lock___env_recursive_mutex
+                0x1fffe157                __lock___sinit_recursive_mutex
+                0x1fffe158                __lock___malloc_recursive_mutex
+                0x1fffe159                __lock___at_quick_exit_mutex
+                0x1fffe15a                __lock___dd_hash_mutex
+                0x1fffe15b                __lock___tz_mutex
+                0x1fffe15c                __lock___sfp_recursive_mutex
+                0x1fffe160                . = ALIGN (0x4)
+ *fill*         0x1fffe15d        0x3 
+                0x1fffe160                __bss_end__ = .
+                0x1fffe160                __END_BSS = .
 
-.heap           0x1fffe0f8     0x1000 load address 0x00002c2c
-                0x1fffe0f8                . = ALIGN (0x4)
+.heap           0x1fffe160     0x1000 load address 0x000036e0
+                0x1fffe160                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__end__ = .)
                 [!provide]                PROVIDE (end = .)
                 [!provide]                PROVIDE (_end = .)
-                0x1fffe0f8                __HeapBase = .
-                0x1fffe0f8                __heap_addr = .
-                0x1ffff0f8                . = (. + __heap_size__)
- *fill*         0x1fffe0f8     0x1000 
+                0x1fffe160                __HeapBase = .
+                0x1fffe160                __heap_addr = .
+                0x1ffff160                . = (. + __heap_size__)
+ *fill*         0x1fffe160     0x1000 
                 0x1fffffff                __HeapLimit = MIN (ABSOLUTE (((ORIGIN (heap_ram) + LENGTH (heap_ram)) - 0x1)), __StackLimit)
                 [!provide]                PROVIDE (__sram_u_size = 0x0)
 
@@ -4663,47 +4927,49 @@ OUTPUT(Lab5_Section2.elf elf32-littlearm)
  .ARM.attributes
                 0x000001f8       0x2e ./Sources/delay.o
  .ARM.attributes
-                0x00000226       0x2e ./Sources/i2c-example.o
+                0x00000226       0x2e ./Sources/i2c.o
  .ARM.attributes
-                0x00000254       0x2e ./Sources/i2c.o
+                0x00000254       0x2e ./Sources/mma845x-example.o
  .ARM.attributes
-                0x00000282       0x2e ./Sources/usbdmError.o
+                0x00000282       0x2e ./Sources/mma845x.o
  .ARM.attributes
-                0x000002b0       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(atexit_arm.o)
+                0x000002b0       0x2e ./Sources/usbdmError.o
  .ARM.attributes
-                0x000002de       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(del_ops.o)
+                0x000002de       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(atexit_arm.o)
  .ARM.attributes
-                0x0000030c       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(del_op.o)
+                0x0000030c       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(del_ops.o)
  .ARM.attributes
-                0x0000033a       0x1e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x0000033a       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(del_op.o)
  .ARM.attributes
-                0x00000358       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x00000368       0x1e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x00000386       0x1e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x00000386       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x000003a4       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-cxa_atexit.o)
+                0x000003b4       0x1e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000003d2       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-exit.o)
+                0x000003d2       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-cxa_atexit.o)
  .ARM.attributes
-                0x00000400       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-impure.o)
+                0x00000400       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-exit.o)
  .ARM.attributes
-                0x0000042e       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-init.o)
+                0x0000042e       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000045c       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-malloc.o)
+                0x0000045c       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x0000048a       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-memset.o)
+                0x0000048a       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-malloc.o)
  .ARM.attributes
-                0x000004b8       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-nano-freer.o)
+                0x000004b8       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x000004e6       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-nano-mallocr.o)
+                0x000004e6       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x00000514       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-mlock.o)
+                0x00000514       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x00000542       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-lock.o)
+                0x00000542       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x00000570       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtend.o
+                0x00000570       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-lock.o)
  .ARM.attributes
-                0x0000059e       0x1e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtn.o
+                0x0000059e       0x2e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtend.o
+ .ARM.attributes
+                0x000005cc       0x1e c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp/crtn.o
 
 .comment        0x00000000       0x75
  .comment       0x00000000       0x75 ./Startup_Code/console.o
@@ -4716,11 +4982,12 @@ OUTPUT(Lab5_Section2.elf elf32-littlearm)
  .comment       0x00000075       0x76 ./Startup_Code/vectors.o
  .comment       0x00000075       0x76 ./Sources/PortExpander.o
  .comment       0x00000075       0x76 ./Sources/delay.o
- .comment       0x00000075       0x76 ./Sources/i2c-example.o
  .comment       0x00000075       0x76 ./Sources/i2c.o
+ .comment       0x00000075       0x76 ./Sources/mma845x-example.o
+ .comment       0x00000075       0x76 ./Sources/mma845x.o
  .comment       0x00000075       0x76 ./Sources/usbdmError.o
 
-.debug_info     0x00000000    0x99208
+.debug_info     0x00000000    0xa8ec7
  .debug_info    0x00000000    0x10d8b ./Startup_Code/console.o
  .debug_info    0x00010d8b     0xff3e ./Startup_Code/mcg.o
  .debug_info    0x00020cc9     0x1071 ./Startup_Code/newlib_stubs.o
@@ -4731,11 +4998,12 @@ OUTPUT(Lab5_Section2.elf elf32-littlearm)
  .debug_info    0x00040c31    0x10279 ./Startup_Code/vectors.o
  .debug_info    0x00050eaa    0x10a2f ./Sources/PortExpander.o
  .debug_info    0x000618d9     0x6a99 ./Sources/delay.o
- .debug_info    0x00068372    0x118e3 ./Sources/i2c-example.o
- .debug_info    0x00079c55     0xf406 ./Sources/i2c.o
- .debug_info    0x0008905b    0x101ad ./Sources/usbdmError.o
+ .debug_info    0x00068372     0xf406 ./Sources/i2c.o
+ .debug_info    0x00077778    0x12030 ./Sources/mma845x-example.o
+ .debug_info    0x000897a8     0xf572 ./Sources/mma845x.o
+ .debug_info    0x00098d1a    0x101ad ./Sources/usbdmError.o
 
-.debug_abbrev   0x00000000     0x7179
+.debug_abbrev   0x00000000     0x7c9c
  .debug_abbrev  0x00000000      0xcd8 ./Startup_Code/console.o
  .debug_abbrev  0x00000cd8      0xb44 ./Startup_Code/mcg.o
  .debug_abbrev  0x0000181c      0x328 ./Startup_Code/newlib_stubs.o
@@ -4746,11 +5014,12 @@ OUTPUT(Lab5_Section2.elf elf32-littlearm)
  .debug_abbrev  0x00002fc2      0xb24 ./Startup_Code/vectors.o
  .debug_abbrev  0x00003ae6      0xd3e ./Sources/PortExpander.o
  .debug_abbrev  0x00004824      0x5a9 ./Sources/delay.o
- .debug_abbrev  0x00004dcd      0xd78 ./Sources/i2c-example.o
- .debug_abbrev  0x00005b45      0xaaf ./Sources/i2c.o
- .debug_abbrev  0x000065f4      0xb85 ./Sources/usbdmError.o
+ .debug_abbrev  0x00004dcd      0xaaf ./Sources/i2c.o
+ .debug_abbrev  0x0000587c      0xe6c ./Sources/mma845x-example.o
+ .debug_abbrev  0x000066e8      0xa2f ./Sources/mma845x.o
+ .debug_abbrev  0x00007117      0xb85 ./Sources/usbdmError.o
 
-.debug_aranges  0x00000000      0x840
+.debug_aranges  0x00000000      0x938
  .debug_aranges
                 0x00000000      0x170 ./Startup_Code/console.o
  .debug_aranges
@@ -4772,13 +5041,15 @@ OUTPUT(Lab5_Section2.elf elf32-littlearm)
  .debug_aranges
                 0x000005b0       0x60 ./Sources/delay.o
  .debug_aranges
-                0x00000610      0x148 ./Sources/i2c-example.o
+                0x00000610       0x68 ./Sources/i2c.o
  .debug_aranges
-                0x00000758       0x68 ./Sources/i2c.o
+                0x00000678      0x1c8 ./Sources/mma845x-example.o
  .debug_aranges
-                0x000007c0       0x80 ./Sources/usbdmError.o
+                0x00000840       0x78 ./Sources/mma845x.o
+ .debug_aranges
+                0x000008b8       0x80 ./Sources/usbdmError.o
 
-.debug_ranges   0x00000000      0x758
+.debug_ranges   0x00000000      0x840
  .debug_ranges  0x00000000      0x160 ./Startup_Code/console.o
  .debug_ranges  0x00000160       0xd8 ./Startup_Code/mcg.o
  .debug_ranges  0x00000238       0xa8 ./Startup_Code/newlib_stubs.o
@@ -4787,11 +5058,12 @@ OUTPUT(Lab5_Section2.elf elf32-littlearm)
  .debug_ranges  0x00000348       0x80 ./Startup_Code/vectors.o
  .debug_ranges  0x000003c8      0x140 ./Sources/PortExpander.o
  .debug_ranges  0x00000508       0x50 ./Sources/delay.o
- .debug_ranges  0x00000558      0x138 ./Sources/i2c-example.o
- .debug_ranges  0x00000690       0x58 ./Sources/i2c.o
- .debug_ranges  0x000006e8       0x70 ./Sources/usbdmError.o
+ .debug_ranges  0x00000558       0x58 ./Sources/i2c.o
+ .debug_ranges  0x000005b0      0x1b8 ./Sources/mma845x-example.o
+ .debug_ranges  0x00000768       0x68 ./Sources/mma845x.o
+ .debug_ranges  0x000007d0       0x70 ./Sources/usbdmError.o
 
-.debug_macro    0x00000000    0x11ab1
+.debug_macro    0x00000000    0x12039
  .debug_macro   0x00000000      0x480 ./Startup_Code/console.o
  .debug_macro   0x00000480      0xbc2 ./Startup_Code/console.o
  .debug_macro   0x00001042       0x1c ./Startup_Code/console.o
@@ -4900,11 +5172,12 @@ OUTPUT(Lab5_Section2.elf elf32-littlearm)
  .debug_macro   0x000100fd      0x499 ./Startup_Code/vectors.o
  .debug_macro   0x00010596      0x486 ./Sources/PortExpander.o
  .debug_macro   0x00010a1c      0x32f ./Sources/delay.o
- .debug_macro   0x00010d4b      0x47c ./Sources/i2c-example.o
- .debug_macro   0x000111c7      0x47c ./Sources/i2c.o
- .debug_macro   0x00011643      0x46e ./Sources/usbdmError.o
+ .debug_macro   0x00010d4b      0x47c ./Sources/i2c.o
+ .debug_macro   0x000111c7      0x490 ./Sources/mma845x-example.o
+ .debug_macro   0x00011657      0x574 ./Sources/mma845x.o
+ .debug_macro   0x00011bcb      0x46e ./Sources/usbdmError.o
 
-.debug_line     0x00000000     0x9f45
+.debug_line     0x00000000     0xb08d
  .debug_line    0x00000000     0x1118 ./Startup_Code/console.o
  .debug_line    0x00001118     0x14fc ./Startup_Code/mcg.o
  .debug_line    0x00002614      0x617 ./Startup_Code/newlib_stubs.o
@@ -4913,41 +5186,44 @@ OUTPUT(Lab5_Section2.elf elf32-littlearm)
  .debug_line    0x00003073      0xbb1 ./Startup_Code/system-gcc.o
  .debug_line    0x00003c24      0xc45 ./Startup_Code/system.o
  .debug_line    0x00004869      0xe9c ./Startup_Code/vectors.o
- .debug_line    0x00005705     0x1087 ./Sources/PortExpander.o
- .debug_line    0x0000678c      0xb66 ./Sources/delay.o
- .debug_line    0x000072f2     0x108b ./Sources/i2c-example.o
- .debug_line    0x0000837d      0xea7 ./Sources/i2c.o
- .debug_line    0x00009224      0xd21 ./Sources/usbdmError.o
+ .debug_line    0x00005705     0x108a ./Sources/PortExpander.o
+ .debug_line    0x0000678f      0xb66 ./Sources/delay.o
+ .debug_line    0x000072f5      0xea7 ./Sources/i2c.o
+ .debug_line    0x0000819c     0x13ac ./Sources/mma845x-example.o
+ .debug_line    0x00009548      0xe24 ./Sources/mma845x.o
+ .debug_line    0x0000a36c      0xd21 ./Sources/usbdmError.o
 
-.debug_str      0x00000000    0x59f18
- .debug_str     0x00000000    0x5114b ./Startup_Code/console.o
+.debug_str      0x00000000    0x5af22
+ .debug_str     0x00000000    0x51144 ./Startup_Code/console.o
                               0x51853 (size before relaxing)
- .debug_str     0x0005114b      0xfcb ./Startup_Code/mcg.o
+ .debug_str     0x00051144      0xfcb ./Startup_Code/mcg.o
                               0x50c6e (size before relaxing)
- .debug_str     0x00052116     0x1f9e ./Startup_Code/newlib_stubs.o
+ .debug_str     0x0005210f     0x1f9e ./Startup_Code/newlib_stubs.o
                                0x8817 (size before relaxing)
- .debug_str     0x000540b4      0x1c4 ./Startup_Code/security.o
+ .debug_str     0x000540ad      0x1c4 ./Startup_Code/security.o
                               0x3958d (size before relaxing)
- .debug_str     0x00054278       0x33 ./Startup_Code/startup_ARMLtdGCC.o
+ .debug_str     0x00054271       0x33 ./Startup_Code/startup_ARMLtdGCC.o
                                  0x5f (size before relaxing)
- .debug_str     0x000542ab      0x1ba ./Startup_Code/system-gcc.o
+ .debug_str     0x000542a4      0x1ba ./Startup_Code/system-gcc.o
                               0x4fdca (size before relaxing)
- .debug_str     0x00054465      0x76e ./Startup_Code/system.o
+ .debug_str     0x0005445e      0x76e ./Startup_Code/system.o
                               0x503f8 (size before relaxing)
- .debug_str     0x00054bd3      0x11f ./Startup_Code/vectors.o
+ .debug_str     0x00054bcc      0x11f ./Startup_Code/vectors.o
                               0x50d5d (size before relaxing)
- .debug_str     0x00054cf2     0x4daa ./Sources/PortExpander.o
+ .debug_str     0x00054ceb     0x4da5 ./Sources/PortExpander.o
                               0x54b31 (size before relaxing)
- .debug_str     0x00059a9c      0x10a ./Sources/delay.o
+ .debug_str     0x00059a90      0x10a ./Sources/delay.o
                               0x45992 (size before relaxing)
- .debug_str     0x00059ba6       0x20 ./Sources/i2c-example.o
-                              0x55959 (size before relaxing)
- .debug_str     0x00059bc6      0x24c ./Sources/i2c.o
+ .debug_str     0x00059b9a      0x24c ./Sources/i2c.o
                               0x4ff89 (size before relaxing)
- .debug_str     0x00059e12      0x106 ./Sources/usbdmError.o
+ .debug_str     0x00059de6      0x55d ./Sources/mma845x-example.o
+                              0x55f12 (size before relaxing)
+ .debug_str     0x0005a343      0xad9 ./Sources/mma845x.o
+                              0x50b5b (size before relaxing)
+ .debug_str     0x0005ae1c      0x106 ./Sources/usbdmError.o
                               0x50d8f (size before relaxing)
 
-.debug_frame    0x00000000     0x2284
+.debug_frame    0x00000000     0x26ac
  .debug_frame   0x00000000      0x620 ./Startup_Code/console.o
  .debug_frame   0x00000620      0x384 ./Startup_Code/mcg.o
  .debug_frame   0x000009a4      0x304 ./Startup_Code/newlib_stubs.o
@@ -4956,20 +5232,21 @@ OUTPUT(Lab5_Section2.elf elf32-littlearm)
  .debug_frame   0x00000e20      0x214 ./Startup_Code/vectors.o
  .debug_frame   0x00001034      0x54c ./Sources/PortExpander.o
  .debug_frame   0x00001580      0x184 ./Sources/delay.o
- .debug_frame   0x00001704      0x534 ./Sources/i2c-example.o
- .debug_frame   0x00001c38      0x18c ./Sources/i2c.o
- .debug_frame   0x00001dc4      0x1ec ./Sources/usbdmError.o
- .debug_frame   0x00001fb0       0x20 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(atexit_arm.o)
- .debug_frame   0x00001fd0       0x20 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(del_ops.o)
- .debug_frame   0x00001ff0       0x20 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(del_op.o)
- .debug_frame   0x00002010       0x2c c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000203c       0x34 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x00002070       0x28 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-cxa_atexit.o)
- .debug_frame   0x00002098       0x28 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-exit.o)
- .debug_frame   0x000020c0       0x2c c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-init.o)
- .debug_frame   0x000020ec       0x30 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-malloc.o)
- .debug_frame   0x0000211c       0x20 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-memset.o)
- .debug_frame   0x0000213c       0x38 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x00002174       0x30 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x000021a4       0x30 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-mlock.o)
- .debug_frame   0x000021d4       0xb0 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-lock.o)
+ .debug_frame   0x00001704      0x18c ./Sources/i2c.o
+ .debug_frame   0x00001890      0x78c ./Sources/mma845x-example.o
+ .debug_frame   0x0000201c      0x1d0 ./Sources/mma845x.o
+ .debug_frame   0x000021ec      0x1ec ./Sources/usbdmError.o
+ .debug_frame   0x000023d8       0x20 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(atexit_arm.o)
+ .debug_frame   0x000023f8       0x20 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(del_ops.o)
+ .debug_frame   0x00002418       0x20 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++_nano.a(del_op.o)
+ .debug_frame   0x00002438       0x2c c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00002464       0x34 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00002498       0x28 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-cxa_atexit.o)
+ .debug_frame   0x000024c0       0x28 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x000024e8       0x2c c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x00002514       0x30 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-malloc.o)
+ .debug_frame   0x00002544       0x20 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x00002564       0x38 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000259c       0x30 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x000025cc       0x30 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x000025fc       0xb0 c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg_nano.a(lib_a-lock.o)
