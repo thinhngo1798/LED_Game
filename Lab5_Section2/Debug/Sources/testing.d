@@ -1,5 +1,8 @@
-Sources/i2c.o Sources/i2c.o: ../Sources/i2c.cpp \
- C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/i2c.h \
+Sources/testing.o Sources/testing.o: ../Sources/testing.cpp \
+ ../Sources/testing.h \
+ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/hardware.h \
+ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/error.h \
+ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/pin_mapping.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/derivative.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/MK20D5.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/core_cm4.h \
@@ -8,9 +11,6 @@ Sources/i2c.o Sources/i2c.o: ../Sources/i2c.cpp \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/core_cmFunc.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/core_cmSimd.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/system.h \
- C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/hardware.h \
- C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/error.h \
- C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/pin_mapping.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/pcr.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/bitband.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/adc.h \
@@ -19,11 +19,22 @@ Sources/i2c.o Sources/i2c.o: ../Sources/i2c.cpp \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/delay.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/console.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/derivative.h \
+ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/hardware.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/formatted_io.h \
- C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart_queue.h
+ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart_queue.h \
+ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/i2c.h \
+ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/pit.h \
+ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/smc.h \
+ ../Sources/PortExpander.h
 
-C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/i2c.h:
+../Sources/testing.h:
+
+C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/hardware.h:
+
+C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/error.h:
+
+C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/pin_mapping.h:
 
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/derivative.h:
 
@@ -41,12 +52,6 @@ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/core_cmSim
 
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/system.h:
 
-C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/hardware.h:
-
-C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/error.h:
-
-C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/pin_mapping.h:
-
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/pcr.h:
 
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/bitband.h:
@@ -63,8 +68,18 @@ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/console.h:
 
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/derivative.h:
 
+C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/hardware.h:
+
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart.h:
 
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/formatted_io.h:
 
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart_queue.h:
+
+C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/i2c.h:
+
+C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/pit.h:
+
+C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/smc.h:
+
+../Sources/PortExpander.h:

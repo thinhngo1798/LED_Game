@@ -30,40 +30,40 @@ int main() {
          uint8_t rxData[2] = {};
 
          i2c.startTransaction();
-         i2c.txRx(I2C_ADDRESS, sizeof(txData), txData, sizeof(rxData), rxData);
+         i2c.txRx(I2C_ADDRESS, sizeof(txData), txData, sizeof(txData), rxData);
          i2c.endTransaction();
       }
-//      {
-//         /*
-//          * Transmits 2 bytes and receives 4 bytes into same buffer
-//          * This will use a repeated start at turnover
-//          */
-//         uint8_t data[4] = { 0xA1,0xB2, };
-//
-//         i2c.startTransaction();
-//         i2c.txRx(I2C_ADDRESS, 2, sizeof(data), data);
-//         i2c.endTransaction();
-//      }
-//      {
-//         /*
-//          * Transmits 4 bytes
-//          */
-//         static const uint8_t data[] = { 0xA1,0xB2,0xC3,0xD4,};
-//
-//         i2c.startTransaction();
-//         i2c.transmit(I2C_ADDRESS, sizeof(data), data);
-//         i2c.endTransaction();
-//      }
-//      {
-//         /*
-//          * Receive 4 bytes
-//          */
-//         static uint8_t data[4] = {};
-//
-//         i2c.startTransaction();
-//         i2c.receive(I2C_ADDRESS, sizeof(data), data);
-//         i2c.endTransaction();
-//      }
+      {
+         /*
+          * Transmits 2 bytes and receives 4 bytes into same buffer
+          * This will use a repeated start at turnover
+          */
+         uint8_t data[4] = { 0xA1,0xB2, };
+
+         i2c.startTransaction();
+         i2c.txRx(I2C_ADDRESS, 2, sizeof(data), data);
+         i2c.endTransaction();
+      }
+      {
+         /*
+          * Transmits 4 bytes
+          */
+         static const uint8_t data[] = { 0xA1,0xB2,0xC3,0xD4,};
+
+         i2c.startTransaction();
+         i2c.transmit(I2C_ADDRESS, sizeof(data), data);
+         i2c.endTransaction();
+      }
+      {
+         /*
+          * Receive 4 bytes
+          */
+         static uint8_t data[4] = {};
+
+         i2c.startTransaction();
+         i2c.receive(I2C_ADDRESS, sizeof(data), data);
+         i2c.endTransaction();
+      }
       waitMS(100);
    }
 }

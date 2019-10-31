@@ -57,7 +57,7 @@ all: Lab5_Section2.elf secondary-outputs
 Lab5_Section2.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: ARM C++ Linker'
-	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"E:/Y2/Embedded/LED_Game/Lab5_Section2/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="Lab5_Section2.map"  -o "Lab5_Section2.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="Lab5_Section2.map"  -o "Lab5_Section2.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

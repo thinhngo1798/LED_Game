@@ -1,4 +1,5 @@
-Sources/i2c.o Sources/i2c.o: ../Sources/i2c.cpp \
+Sources/PortExpander.o Sources/PortExpander.o: \
+ ../Sources/PortExpander.cpp \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/i2c.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/derivative.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/MK20D5.h \
@@ -21,7 +22,8 @@ Sources/i2c.o Sources/i2c.o: ../Sources/i2c.cpp \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/derivative.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart.h \
  C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/formatted_io.h \
- C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart_queue.h
+ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart_queue.h \
+ ../Sources/PortExpander.h
 
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/i2c.h:
 
@@ -68,3 +70,5 @@ C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart.h:
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/formatted_io.h:
 
 C:/Users/trang/Documents/workspace/Lab5/Lab5_Section2/Project_Headers/uart_queue.h:
+
+../Sources/PortExpander.h:

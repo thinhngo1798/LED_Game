@@ -14,6 +14,7 @@
 #include "smc.h"
 #include "PortExpander.h"
 #include "testing.h"
+#include "Accelerometer.h"
 
 using namespace USBDM;
 
@@ -55,7 +56,8 @@ int randomWalk()
 
 int updateLEDPosition()
 {
-	int temp = randomWalk() + LEDPosition;
+	int temp = randomWalk()+calculateTheDegree();
+console.write(calculateTheDegree());
 
 	if (temp > 7) return 7;
 	else if (temp < 0) return 0;
@@ -66,7 +68,9 @@ int getScore(int speed)
 {
 	return MAX_SCORE - speed;
 }
-
+/**
+ *
+ */
 void displayLEDBar(unsigned int position)
 {
 	write(1<<position);
@@ -92,7 +96,9 @@ void PITCallback()
 	}
 	TimerChannel::setPeriod(delayTime*ms);
 }
-
+/**
+ * Initialise PIT for interupt
+ */
 void initialisePIT()
 {
 	// PIT configure
@@ -113,6 +119,7 @@ int main() {
 
    // Declare I2C interface
    initialisePIT();
+   initializeTheAccelerometer();
    I2c0 i2c{I2C_SPEED, I2cMode_Polled};
 
    setDirection(0b00000000);
