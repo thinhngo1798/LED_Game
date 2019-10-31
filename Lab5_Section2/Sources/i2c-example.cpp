@@ -17,7 +17,7 @@
 #include "Accelerometer.h"
 
 using namespace USBDM;
-
+using outputSpeedTesting = GpioC<0,ActiveHigh>;
 using Timer        = Pit;
 using TimerChannel = Timer::Channel<0>;
 using DebugLed = GpioC<0>;
@@ -56,7 +56,7 @@ int randomWalk()
 
 int updateLEDPosition()
 {
-	int temp = randomWalk()+calculateTheDegree();
+	int temp = calculateTheDegree();
 console.write(calculateTheDegree());
 
 	if (temp > 7) return 7;
@@ -78,7 +78,7 @@ void displayLEDBar(unsigned int position)
 
 void PITCallback()
 {
-	LEDPosition = updateLEDPosition();
+	LEDPosition = randomWalk()+ updateLEDPosition();
 	displayLEDBar(LEDPosition);
 	if (delayTime > 200)
 	{
@@ -89,6 +89,8 @@ void PITCallback()
 	if (LEDPosition == 0 || LEDPosition == 7)
 	{
 		console.writeln("You have lost the game.");
+		console.write("Final Score: ").writeln(score);
+		score=0;
 	}
 	else
 	{
@@ -116,18 +118,34 @@ void initialisePIT()
 }
 
 int main() {
-
+	//For playing the game
     //Declare I2C interface
    initialisePIT();
    initializeTheAccelerometer();
    I2c0 i2c{I2C_SPEED, I2cMode_Polled};
-
    setDirection(0b00000000);
-   for(;;)
-   {
-//	   testReadPinFunction();
-//	   waitMS(1000);
-   }
+
+   while(true)
+   {}
+//	outputSpeedTesting::setOutput(PinDriveStrength_High, PinDriveMode_PushPull, PinSlewRate_Fast);
+//	int choice=0;
+//   for(;;)
+//   {
+//	   console.writeln("Enter the test case that you want").
+//			   writeln("1 for testing setDirection. Set all direction to be input").
+//			   writeln("2 for testing Display. Write to 8 output from 0 to 256").
+//			   writeln("3 for testing Read Pin Function.").
+//			   writeln("4 for system testing").readln(choice);
+//	   //
+//	   setDirection(0b00000000);
+//	   write(0b11111111);
+//	   write(0b00000000);
+//	   console.writeln("huhu");
+//	   outputSpeedTesting::on();
+//	   outputSpeedTesting::off();
+//	   waitMS(10);
+//   }
+
 }
 
 
