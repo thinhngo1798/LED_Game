@@ -2,28 +2,60 @@
 // * testing.cpp
 // *
 // *  Created on: Oct 31, 2019
-// *      Author: PLH
+// *  Author: Quang Thinh Ngo
+// *  Author: Chuong Ho
 // */
 //
 #include "testing.h"
 
 using namespace USBDM;
 using outputTest = GpioDField<3,1,ActiveHigh>;
+/**
+ * Testing the seting direction function by setting all GPIO to input
+ * Result: Console returns the value in the register of Input Output Direction.
+ * Expected result: 255
+ */
 void testSetDirection()
 {
 	setDirection(0b11111111);
 	console.write("The direction is ").writeln(readRegister(RegAddress_IODIR));
 }
 
+/**
+ * Testing the display LED by setting all GPIO direction to output and write binary value from 0 to 32 into the register.
+ * Expected result: LED is on showing the binary value of integer 0 to 32.
+ */
 void testDisplay()
 {
-   for (int i = 0; i < 256; ++i)
+	setDirection(0b00000000);
+   for (int i = 0; i < 64; ++i)
    {
 	   write(i);
-	   waitMS(1000);
+	   waitMS(700);
    }
 }
 
+/**
+ * Testing setting pin direction individually.
+ * Test detail: set the fourth pin to output and write 1 to that pin.
+ * Expected result: Console show the value of the port is 8.
+ */
+void testsetPinDirection()
+{
+	setPinDirection(3,0);
+	write(0b00001000);
+	console.writeln(read());
+}
+
+/**
+ * Testing the ability of reading pin value on the I/O Port.
+ * Test detail:
+ * Case 1: Setting 3 least significant bits to 1 and reading this value and print to the console.
+ * Case 1: Setting 3 least significant bits to 0 and reading this value and print to the console.
+ * Expected result:
+ * Case 1: Value in console is 7.
+ * Case 2: Value in console is 0.
+ */
 void testReadPinFunction()
 {
 	int choice=0;
@@ -35,12 +67,12 @@ void testReadPinFunction()
 	switch(choice)
 	{
 	case 1:
-		//Setting all the output for testing to 1.
+		///Setting all the output for testing to 1.
 		outputTest::write(0b111);
 		console.writeln(read());
 		break;
 	case 2:
-		//Setting all the output for testing to 0.
+		///Setting all the output for testing to 0.
 		outputTest::write(0b000);
 		console.writeln(read());
 		break;
@@ -48,6 +80,14 @@ void testReadPinFunction()
 		console.writeln("Please try again");
 	}
 }
+
+/**
+ * Overal testing on the system
+ * Test detail:
+ * Getting input from users to determine the direction of each individual pin.
+ * Write 1 to all the output pin.
+ * Expected result: LEDs corresponding to all the output direction pin are on.
+ */
 void testSystem()
 {
    unsigned numberOfInput;
@@ -69,18 +109,5 @@ void testSystem()
    setDirection(Mask);
    //All the output LED will be on;
    write(0b11111111);
-   waitMS(5000);
 
-   //All output will be 0 and then capture the input for testing.
-   write(0b00000000);
-   waitMS(500);
-
-   //All the bits are output and flashing 1 light from right to left.
-   Mask=0;
-   setDirection(Mask);
-   for (int l=0;l<=7;l++)
-   {
-	   write(1<<l);
-	   waitMS(500);
-   }
 }
