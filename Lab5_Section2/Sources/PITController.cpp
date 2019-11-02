@@ -1,9 +1,14 @@
 /*
- * PITController.cpp
+ ============================================================================
+ * @file    PITController.cpp
+ * @brief   PIT to control the game status frequently.
  *
- *  Created on: Nov 3, 2019
- *      Author: PLH
+ *  Created on: 17/10/19
+ *      Author: Dac Thanh Chuong Ho
+ *      Co-autor: Quang Thinh Ngo
+ ============================================================================
  */
+
 #include "hardware.h"
 #include "pit.h"
 #include "Accelerometer.h"
