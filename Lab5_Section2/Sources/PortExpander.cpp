@@ -1,9 +1,14 @@
 /*
- * PortExpander.cpp
+ ============================================================================
+ * @file    PortExpander.cpp
+ * @brief   Interface to communicate with MCP23008 chip.
  *
- *  Created on: Oct 25, 2019
- *      Author: PLH
+ *  Created on: 17/10/19
+ *      Author: Dac Thanh Chuong Ho
+ *      Co-author: Quang Thinh Ngo
+ ============================================================================
  */
+
 #include "i2c.h"
 
 #include "PortExpander.h"
@@ -13,7 +18,9 @@ using namespace USBDM;
 static const unsigned I2C_SPEED   = 400*kHz;
 static const unsigned I2C_ADDRESS = 0x20<<1;
 
+
 I2c0 i2c{I2C_SPEED, I2cMode_Polled};
+
 
 /**
  * transmit the data to write the regAddress register
@@ -22,6 +29,7 @@ I2c0 i2c{I2C_SPEED, I2cMode_Polled};
  */
 void writeRegister(RegAddress regAddress, uint8_t data)
 {
+	//array containing the register address and data value to be sent
 	const uint8_t arraySent[] = {regAddress, data};
 	i2c.startTransaction();
 	i2c.transmit(I2C_ADDRESS, sizeof(arraySent), arraySent);
@@ -37,7 +45,9 @@ uint8_t readRegister(RegAddress regAddress)
 {
 	const uint8_t arrayTx[] = {regAddress};
 	uint8_t arrayRx[1];
+
 	i2c.startTransaction();
+	//send the regAddress requested and receive the value on the same register.
 	i2c.txRx(I2C_ADDRESS, sizeof(arrayTx), arrayTx, sizeof(arrayRx), arrayRx);
 	i2c.endTransaction();
 	return arrayRx[0];
@@ -45,6 +55,7 @@ uint8_t readRegister(RegAddress regAddress)
 
 /**
  * Set pins which are outputs to be high or low.
+ * OLAT register is involved.
  * @param data : 8 bit number, bit 1 for high, bit 0 for output.
  */
 void write(uint8_t data)
@@ -53,7 +64,8 @@ void write(uint8_t data)
 }
 
 /**
- * Set direction in the input/output for the GPIO
+ * Set direction in the input/output for the GPIO.
+ * IODIR register controls the direction: input/output.
  * @param direction: 8 bit number, bit 1 for input, bit 0 for output.
  */
 void setDirection(uint8_t direction)
@@ -62,23 +74,12 @@ void setDirection(uint8_t direction)
 }
 
 /**
- * Read the actual value in the port pins GPIO.
+ * Read the value on the port pins GPIO.
  * @return 8-bit value - bit 1 for high, bit 0 for low.
  */
 uint8_t read()
 {
 	return readRegister(RegAddress_GPIO);
-}
-
-/**
- * Set the direction of a single pin.
- * @param pinNumber the order of the pin (0 ... 7)
- */
-void setPinDirection(uint8_t pinNumber)
-{
-	uint8_t directionValue = readRegister(RegAddress_IODIR);
-	directionValue |= (1<<pinNumber);
-	setDirection(directionValue);
 }
 
 /**
